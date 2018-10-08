@@ -30,9 +30,11 @@ class NyString {
     }
 
     public String getPart(String letter) {
-        String partial = tekst;
+        while (tekst.contains(letter)) {
+            tekst.replace(letter, "");
+        }
 
-        return partial;
+        return tekst;
 
     }
 
