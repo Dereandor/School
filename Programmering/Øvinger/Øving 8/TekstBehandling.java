@@ -39,8 +39,8 @@ class TekstBehandling {
             StringTokenizer counter = new StringTokenizer(ord);
             wordCount += counter.countTokens();
         }
-        double avgPer = (double) wordCount / (double) periodCount;
-        return avgPer;
+        double avgPeriod = (double) wordCount / (double) periodCount;
+        return avgPeriod;
     }
     //skifte ut et ord med et annet gjennom hele teksten.
     public String getReplace(String old, String replacement) {

@@ -4,10 +4,10 @@ class NyStringTest {
 
         NyString tekst = new NyString("Dette er en test");
 
-        String init = tekst.getInit();
-        System.out.println("Forbokstaver: " + init);
+        String initial = tekst.getInitial();
+        System.out.println("Forbokstaver: " + initial);
 
-        String part = tekst.getPart("e");
-        System.out.println("Bokstav fjernet: " + part);
+        String partial = tekst.getPartial("e");
+        System.out.println("Bokstav fjernet: " + partial);
     }
 }

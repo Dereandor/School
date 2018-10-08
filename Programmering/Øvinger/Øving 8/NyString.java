@@ -4,30 +4,31 @@
 
 class NyString {
 
-    private String tekst;
+    private final String tekst;
+    //private String nyTekst;
 
     public NyString(String tekst) {
         this.tekst = tekst;
     }
 
-    public String getInit() {
+    public String getInitial() {
         String[] ord = tekst.split(" ");
-        String init = "";
+        String initial = "";
         for (int i = 0; i < ord.length; i++) {
             String kort = ord[i];
-            init += kort.charAt(0);
+            initial += kort.charAt(0);
         }
-        return init;
+        return initial;
     }
 
-    public String getPart(String letter) {
-        int letterIndex = tekst.indexOf(letter);
+    public String getPartial(String letter) {
+        String nyTekst = tekst;
+        int letterIndex = nyTekst.indexOf(letter);
         while (letterIndex != -1) {
-            tekst = tekst.substring(0, letterIndex) + "" + tekst.substring(letterIndex + 1);
-            letterIndex = tekst.indexOf(letter, letterIndex + 1 );
+            nyTekst = nyTekst.substring(0, letterIndex) + "" + nyTekst.substring(letterIndex + 1);
+            letterIndex = nyTekst.indexOf(letter, letterIndex + 1 );
         }
-        return tekst;
-
+        return nyTekst;
     }
 
 }
