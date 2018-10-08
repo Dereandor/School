@@ -10,5 +10,4 @@ class NyStringTest {
         String part = tekst.getPart("e");
         System.out.println("Bokstav fjernet: " + part);
     }
-
 }

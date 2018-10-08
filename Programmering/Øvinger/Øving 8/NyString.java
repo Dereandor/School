@@ -30,10 +30,11 @@ class NyString {
     }
 
     public String getPart(String letter) {
-        while (tekst.contains(letter)) {
-            tekst.replace(letter, "");
+        int letterIndex = tekst.indexOf(letter);
+        while (letterIndex != -1) {
+            tekst = tekst.substring(0, letterIndex) + "" + tekst.substring(letterIndex + 1);
+            letterIndex = tekst.indexOf(letter, letterIndex + 1 );
         }
-
         return tekst;
 
     }
