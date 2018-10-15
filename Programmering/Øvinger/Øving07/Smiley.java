@@ -24,11 +24,11 @@ class Tegning extends JPanel {
         tegneflate.setColor(Color.YELLOW);
         tegneflate.fillOval(30, 30, 300, 300);
         tegneflate.setColor(Color.BLACK);
-        tegneflate.fillOval(90, 90, 40, 40);
+        tegneflate.fillOval(90, 120, 40, 40);
         tegneflate.setColor(Color.BLACK);
-        tegneflate.fillOval(230, 90, 40, 40);
+        tegneflate.fillOval(230, 120, 40, 40);
         tegneflate.setColor(Color.BLACK);
-        tegneflate.fillRoundRect(90, 210, 180, 40, 40, 40);
+        tegneflate.fillArc(90, 170, 180, 120, 180, 180);
     }
 }
 
