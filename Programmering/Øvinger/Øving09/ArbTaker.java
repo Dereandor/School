@@ -1,3 +1,5 @@
+import static javax.swing.JOptionPane.*;
+
 class ArbTaker {
 
     java.util.GregorianCalendar kalender = new java.util.GregorianCalendar();
@@ -8,7 +10,9 @@ class ArbTaker {
     private int skatteprosent;
     private Person personalia;
 
-    public ArbTaker(Person personalia, int ansattnummer, int ansettelse, int mandeslonn, int skatteprosent){
+    public ArbTaker(Person personalia, int ansattnummer,
+        int ansettelse, int mandeslonn, int skatteprosent){
+
         this.personalia = personalia;
         this.ansattnummer = ansattnummer;
         this.ansettelse = ansettelse;
@@ -17,7 +21,8 @@ class ArbTaker {
     }
     //oprette ny person i Person-klassen
     public Person getPersonalia() {
-        return new Person(personalia.getFirstName(), personalia.getLastName(), personalia.getBirthYear());
+        return new Person(personalia.getFirstName(),
+            personalia.getLastName(), personalia.getBirthYear());
     }
     //hente ut ansatts fornavn
     public String getFornavn() {
