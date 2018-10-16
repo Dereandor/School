@@ -6,7 +6,7 @@ class TemperaturerKlient {
     public static void main(String[]args) {
 
         //oprett ny månedstabell
-        Temperaturer oktober = new Temperaturer("oktober", 4, 4);
+        Temperaturer oktober = new Temperaturer("oktober", 6, 6);
 
         //hente ut hele tabellen
         System.out.println("Hele tabellen: \n" + oktober.toString());
