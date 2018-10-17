@@ -2,16 +2,16 @@ import static javax.swing.JOptionPane.*;
 
 class ArbTaker {
 
-    java.util.GregorianCalendar kalender = new java.util.GregorianCalendar();
+    private static java.util.GregorianCalendar kalender = new java.util.GregorianCalendar();
 
     private int ansattnummer;
     private int ansettelse;
     private int manedslonn;
-    private int skatteprosent;
+    private double skatteprosent;
     private Person personalia;
 
     public ArbTaker(Person personalia, int ansattnummer,
-        int ansettelse, int mandeslonn, int skatteprosent){
+        int ansettelse, int mandeslonn, double skatteprosent){
 
         this.personalia = personalia;
         this.ansattnummer = ansattnummer;
@@ -49,12 +49,15 @@ class ArbTaker {
         return manedslonn;
     }
     //hente ut skatteprosent
-    public int getSkatteprosent() {
+    public double getSkatteprosent() {
         return skatteprosent;
     }
     //hente ut skattetrekk per måned
-    public int getSkattetrekkMnd() {
-        int skattetrekk = manedslonn * (skatteprosent / 100);
+    public double getSkattetrekkMnd() {
+        double skattetrekk = 0;
+        double manedslonn = getLonn();
+        double skatteprosent = getSkatteprosent();
+        skattetrekk = manedslonn * (skatteprosent / 100);
         return skattetrekk;
     }
     //hente ut bruttolønn per år
@@ -65,13 +68,13 @@ class ArbTaker {
     //hente ut skattetrekk per år
     public int getSkattetrekkAr() {
         int arTrekk = getBruttolonn();
-        int skatt = getSkattetrekkMnd();
+        double skatt = getSkattetrekkMnd();
         arTrekk -= (skatt * 10.5);
         return arTrekk;
     }
     //hente ut navn på formen Etternavn, Fornavn
     public String getNavn() {
-        return getEtternavn() + getFornavn();
+        return getEtternavn() + " " + getFornavn();
     }
     //hente alder på ansatt.
     public int getAlder() {

@@ -1,0 +1,2 @@
+pugg forskjell på komposisjon og aggregering i java klasser.
+hvit når man bør og ikke bør bruke static.
