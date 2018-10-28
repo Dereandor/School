@@ -39,6 +39,6 @@ class Student {
     }
 
     public String toString() {
-        return "Navn: " + name + "\n Student nummer: " + studNum + "\n Utførte oppgaver: " + tasks + "\n";
+        return "Navn: " + name + "Student nummer: " + studNum + "\n Utførte oppgaver: " + tasks;
     }
 }

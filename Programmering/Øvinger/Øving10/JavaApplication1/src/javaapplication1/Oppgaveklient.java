@@ -13,15 +13,14 @@ class Oppgaveklient {
 
         Oppgaveoversikt test = new Oppgaveoversikt();
         test.newStudent("test tester");
-        //test.newStudent("test tester2");
-        //test.newStudent("test tester3");
-        System.out.println(test.getStudents());
+        test.newStudent("test tester2");
+        test.newStudent("test tester3");
 
-        String[] options = new String[] {"Les Studentliste", "Øk oppgaver", "Søk spesifikk student",
+        String[] options = new String[] {"Les Antall Studenter", "Ã˜k oppgaver", "SÃ¸k spesifikk student",
         "Legg til ny student", "Avslutt"};
         while (response < options.length) {
                 response = showOptionDialog(null,
-                "Venligst velg hva du vil gjøre: ", "Endringsmuligheter",
+                "Venligst velg hva du vil gjÃ¸re: ", "Endringsmuligheter",
                 DEFAULT_OPTION, PLAIN_MESSAGE, null, options, options[0]);
 
             System.out.println(response);
@@ -32,7 +31,7 @@ class Oppgaveklient {
             } else if (response == 1) {
                 //legg inn Ã¸king av oppgaver
                 int studNum = Integer.parseInt(showInputDialog("Tast inn Studentnummer: "));
-                int studTasks = Integer.parseInt(showInputDialog("Tast inn antall øvinger godkjent: "));
+                int studTasks = Integer.parseInt(showInputDialog("Tast inn antall Ã¸vinger godkjent: "));
                 test.increaseTasks(studNum, studTasks);
                 showMessageDialog(null, test.getStudentDone(studNum));
             } else if (response == 2) {

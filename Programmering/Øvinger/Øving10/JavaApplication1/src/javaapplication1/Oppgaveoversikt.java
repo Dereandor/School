@@ -15,15 +15,15 @@ public class Oppgaveoversikt {
 
     private Student[] students; //tabellen opprettes i konstruktøren
     private int numStud = 0; //økes med 1 for hver ny student
+    private int studentNum;
+    private String studentName;
 
     public Oppgaveoversikt() {
-        students = new Student[2];
-        students[0] = new Student("Default student", 0);
-        numStud++;
+        Student[] students = new Student[10];
     }
 
-    public String getStudents() {
-        return Arrays.toString(students);
+    public int getStudents() {
+        return numStud;
     }
 
     public int getStudentDone(int studentNum) {
@@ -35,11 +35,13 @@ public class Oppgaveoversikt {
     }
 
     public void newStudent(String name) {
-        if (numStud == students.length) {
-            extendArray();
+        try {
+            students[numStud] = new Student(name, numStud);
+            numStud++;
+        } catch (NullPointerException e) {
+            throw new IllegalArgumentException("name is null", e);
+
         }
-        students[numStud] = new Student(name, numStud);
-        numStud++;
     }
 
     public void increaseTasks(int student, int increase) {
@@ -51,14 +53,10 @@ public class Oppgaveoversikt {
     }
 
     public void extendArray() {
-        Student[] newArray = new Student[students.length + 1];
+        Student[] newArray = new Student[students.length + 2];
         for (int i = 0; i < students.length; i++) {
             newArray[i] = students[i];
         }
         students = newArray;
-    }
-
-    public String toString() {
-        return Arrays.toString(students);
     }
 }
