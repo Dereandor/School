@@ -15,7 +15,7 @@ class Student {
 
     public Student(String name, int studNum) {
         if (name == null || name.trim().equals("")) {
-            throw new IllegalArgumentException("Navn mÃ¥ oppgis.");
+            throw new IllegalArgumentException("Navn må oppgis.");
         }
         this.name = name;
         this.studNum = studNum;
@@ -33,12 +33,12 @@ class Student {
 
     public void incTasks(int increase) {
         if (increase <= 0) {
-            throw new IllegalArgumentException("Ã˜kning mÃ¥ vÃ¦re positiv");
+            throw new IllegalArgumentException("Økning må være positiv");
         }
         tasks += increase;
     }
 
     public String toString() {
-        return "Navn: " + name + "\n Student nummer: " + studNum + "\n UtfÃ¸rte oppgaver: " + tasks + "\n";
+        return "Navn: " + name + "\n Student nummer: " + studNum + "\n Utførte oppgaver: " + tasks + "\n";
     }
 }

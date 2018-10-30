@@ -12,13 +12,11 @@ class Oppgaveklient {
         int response = 0;
 
         Oppgaveoversikt test = new Oppgaveoversikt();
-        test.newStudent("test tester");
-        //test.newStudent("test tester2");
-        //test.newStudent("test tester3");
+        test.newStudent("Test Student");
         System.out.println(test.getStudents());
 
         String[] options = new String[] {"Les Studentliste", "Øk oppgaver", "Søk spesifikk student",
-        "Legg til ny student", "Avslutt"};
+        "Legg til ny student", "Antall Studenter", "Avslutt"};
         while (response < options.length) {
                 response = showOptionDialog(null,
                 "Venligst velg hva du vil gjøre: ", "Endringsmuligheter",
@@ -41,6 +39,8 @@ class Oppgaveklient {
             } else if (response == 3) {
                 //legg inn ny student funksjon
                 test.newStudent(showInputDialog("Tast inn student navn: "));
+            } else if (response == 4) {
+                showMessageDialog(null, test.getNumberStudents());
             } else {
                 break;
             }

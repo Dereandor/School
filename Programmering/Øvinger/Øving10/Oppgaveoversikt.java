@@ -26,6 +26,10 @@ public class Oppgaveoversikt {
         return Arrays.toString(students);
     }
 
+    public int getNumberStudents() {
+        return numStud;
+    }
+
     public int getStudentDone(int studentNum) {
         return students[studentNum].getTasks();
     }
