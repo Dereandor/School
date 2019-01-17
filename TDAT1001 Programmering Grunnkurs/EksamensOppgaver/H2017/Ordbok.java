@@ -56,7 +56,7 @@ class Ordbok implements java.io.Serializable {
     }
 
     public Ord[] sorter() {
-        Ord[] kopi = new Ord[ordbok.length]
+        Ord[] kopi = new Ord[ordbok.length];
         for(int i = 0; i<ordbok.length; i++) {
             kopi[i] = new Ord(ordbok[i].getOrd());
         }
