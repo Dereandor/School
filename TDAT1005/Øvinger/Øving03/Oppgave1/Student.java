@@ -16,6 +16,9 @@ public class Student {
     }
 
     public void setAntOppg(int antOppg) {
+        if(antOppg < 0) {
+            throw new IllegalArgumentException("kan ikke være negativt");
+        }
         numTasks += antOppg;
     }
 

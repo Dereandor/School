@@ -32,7 +32,7 @@ class KlientSetup {
 public class Klient {
     
     public static void main(String[]args) {
-        // @TODO: 16-Jan-19  insert variables here: 
+        // @TODO: 16-Jan-19  insert variables here:
         Konferansesenter ks = new Konferansesenter();
         KlientSetup k = new KlientSetup();
     }

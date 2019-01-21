@@ -13,6 +13,7 @@ public class OppgaveOversikt {
             utvid();
         }
         studenter[antStud] = new Student(name);
+        antStud++;
         return true;
     }
 
