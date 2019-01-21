@@ -5,7 +5,7 @@ class KlientSetup {
      * (Her skal romnummer ikke være parameter, metoden skal selv finne et rom som er ledig og med plass til det oppgitte antallet personer.)
      */
     public void reserverRom() {
-    
+
     }
     
     /*
@@ -33,7 +33,7 @@ public class Klient {
     
     public static void main(String[]args) {
         // @TODO: 16-Jan-19  insert variables here:
-        Konferansesenter ks = new Konferansesenter();
+        Konferansesenter ks = new Konferansesenter("Alpha");
         KlientSetup k = new KlientSetup();
     }
 }
