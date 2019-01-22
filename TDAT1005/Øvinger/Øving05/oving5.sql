@@ -1,0 +1,1 @@
+-- Hvert borettslag er bestemt ved navn, adresse, antall hus og/eller blokkenheter og etableringsår.

@@ -59,7 +59,7 @@ class Reservasjon {
      */
     public static void main(String[] args) {
         Kunde k = new Kunde("Anne Hansen", "12345678");
-        System.out.println("Totalt antall tester: ");
+        System.out.println("Totalt antall tester: 2");
         Reservasjon r1 = new Reservasjon(new Tidspunkt(200302011000L), new Tidspunkt(200302011100L), k);
         Reservasjon r2 = new Reservasjon(new Tidspunkt(200301211000L), new Tidspunkt(200301211030L), k);
         Reservasjon r3 = new Reservasjon(new Tidspunkt(200302011130L), new Tidspunkt(200302011300L), k);
