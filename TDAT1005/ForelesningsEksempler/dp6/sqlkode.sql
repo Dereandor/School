@@ -51,7 +51,7 @@ ALTER TABLE ansatt
   ADD CONSTRAINT ansatt_fk1 FOREIGN KEY (leder)
   REFERENCES ansatt(idnr);
 
---////////////////////////////////////////////////////////////////////////////////////
+-- ////////////////////////////////////////////////////////////////////////////////////
 -- INSERT, etc
 
 delete from poststed;
@@ -64,11 +64,11 @@ insert into student VALUES(125, 'Ole', 'Olsen', 'xxx', 1880);
 
 
 
---////////////////////////////////////////////////////////////////////////////////////
+-- ////////////////////////////////////////////////////////////////////////////////////
 -- Surrogatnøkkel som primærnøkkel, bruk av UNIQUE
 CREATE TABLE student(
   id INTEGER AUTO_INCREMENT,
-  studnr UNTEGER,
+  studnr INTEGER,
   fornavn VARCHAR(30) NOT NULL,
   etternavn VARCHAR(30) NOT NULL,
   adresse VARCHAR(30) NOT NULL,

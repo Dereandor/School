@@ -2,5 +2,6 @@
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$/ForelesningsEksempler/dp6/sqlkode.sql" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/Øvinger/Øving06/bokskript_mysql.sql" charset="ISO-8859-1" />
   </component>
 </project>
