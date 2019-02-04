@@ -12,17 +12,23 @@ SELECT * FROM bok, forlag;
 
 SELECT * FROM bok JOIN forlag f on bok.forlag_id = f.forlag_id; -- likhetsforening
 
-Select * FROM bok NATURAL JOIN forlag;
+Select * FROM bok NATURAL JOIN forlag; -- naturlig forening
 
 -- d) Finn eksempler på attributter eller kombinasjoner av attributter som er unionkompatible.
 /*
-For at to tabeller skal være unionkompatible må antall kolonner of kolonnerekkefølge være lik i begge tabeller
-SELECT må resultere i samme antall kolonner, navnene kan være forskjellige og de må ikke ha samme størrelse
+For at to tabeller skal være unionkompatible må antall kolonner og kolonnesekvens være lik i begge tabeller
+SELECT-setning må resultere i samme antall kolonner, navnene kan være forskjellige og de må ikke ha samme størrelse
 og datatype.
  */
 --    Hvilke relasjonsoperasjoner krever at operandene er unionkompatible?
---  UNION SNITT OG DIFFERANSE
+/*
+Ved bruk av operasjonene UNION, SNITT og DIFFERANSE
+*/
 --    Sett opp SQL-spørringer som utfører disse operasjonene, et eksempel på hver. Beskriv med egne ord hva spørringene gir deg svaret på.
+
+SELECT * FROM forlag
+UNION
+SELECT * FROM bok;
 
 SELECT DISTINCT bok.forlag_id FROM bok JOIN forlag
   ON(bok.forlag_id = forlag.forlag_id);
@@ -30,5 +36,5 @@ SELECT DISTINCT bok.forlag_id FROM bok JOIN forlag
 
 SELECT forlag.forlag_id FROM forlag
   LEFT JOIN bok ON (bok.forlag_id = forlag.forlag_id)
-WHERE bok.forlag_id IS NULL:
+WHERE bok.forlag_id IS NULL;
 -- finner forskjellen mellom de to tabellene.
