@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b97689f-9470-420e-8330-1366a018169e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SU7/WorkshopTesting/KodForst/KodForst.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SU7/WorkshopTesting/KodForst/src/By.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SU7/WorkshopTesting/KodForst/src/Land.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SU7/WorkshopTesting/KodForst/src/LandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IINI1002-Webutvikling-1/Task3/Task3HTML.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IINI1002-Webutvikling-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IINI1002-Webutvikling-1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IINI1002-Webutvikling-1/Task2/Task2HTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/../IINI1002-Webutvikling-1/Task2/Task2HTML.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IINI1002-Webutvikling-1/Task2/Task2HTML2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../IINI1002-Webutvikling-1/Task2/Task2HTML2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TDAT1005/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TDAT1005/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TDAT1005/Øvinger/Øving06/Oppgave1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../TDAT1005/Øvinger/Øving06/Oppgave1.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TDAT1005/Øvinger/Øving07/src/BonusMedlem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TDAT1005/Øvinger/Øving07/src/BonusMedlem.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,7 +51,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/SU7/WorkshopTesting/KodForst/src/LandTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="596">
+                <state relative-caret-position="594">
                   <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -110,7 +107,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,6 +154,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -167,7 +164,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548951546944" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549447439070" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -216,6 +213,7 @@
       <workItem from="1548942931311" duration="604000" />
       <workItem from="1548951314200" duration="69000" />
       <workItem from="1548951399410" duration="152000" />
+      <workItem from="1549447407851" duration="77000" />
     </task>
     <servers />
   </component>
@@ -232,9 +230,12 @@
     <history-entry file="LandTest - 2019.01.31 at 14h 56m 56s.xml">
       <configuration name="LandTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LandTest - 2019.02.06 at 11h 04m 07s.xml">
+      <configuration name="LandTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7608000" />
+    <option name="totallyTimeSpent" value="7685000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -247,8 +248,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="25" width="1875" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17003827" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17167851" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -258,7 +260,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32937366" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32894737" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -304,7 +306,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SU7/WorkshopTesting/KodForst/src/LandTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
+        <state relative-caret-position="594">
           <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
