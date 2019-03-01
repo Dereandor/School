@@ -903,356 +903,230 @@
       <Charset>utf8mb4</Charset>
       <DefaultForCharset>0</DefaultForCharset>
     </collation>
-    <table id="226" parent="3" name="Adresser"/>
-    <table id="227" parent="3" name="Borettslag"/>
-    <table id="228" parent="3" name="Bygninger"/>
-    <table id="229" parent="3" name="Leiligheter"/>
-    <table id="230" parent="3" name="Medlem"/>
-    <table id="231" parent="3" name="bok"/>
-    <table id="232" parent="3" name="bok_forfatter"/>
-    <table id="233" parent="3" name="forfatter"/>
-    <table id="234" parent="3" name="forlag"/>
-    <table id="235" parent="3" name="konsulent"/>
-    <column id="236" parent="226" name="adresse">
-      <Position>1</Position>
-      <DataType>varchar(30)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="237" parent="226" name="postnr">
-      <Position>2</Position>
-      <DataType>varchar(4)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <key id="238" parent="226" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>adresse</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <column id="239" parent="227" name="bl_id">
+    <table id="226" parent="3" name="bedrifter"/>
+    <table id="227" parent="3" name="jobbhistorikk"/>
+    <table id="228" parent="3" name="kandidater"/>
+    <table id="229" parent="3" name="kandidatkval"/>
+    <table id="230" parent="3" name="kvalifikasjoner"/>
+    <table id="231" parent="3" name="oppdrag"/>
+    <column id="232" parent="226" name="orgnr">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
-      <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="240" parent="227" name="navn">
+    <column id="233" parent="226" name="orgnavn">
       <Position>2</Position>
       <DataType>varchar(30)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="241" parent="227" name="etablering">
+    <column id="234" parent="226" name="telefon">
       <Position>3</Position>
-      <DataType>varchar(4)|0s</DataType>
-      <NotNull>1</NotNull>
+      <DataType>varchar(15)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="242" parent="227" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>bl_id</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <column id="243" parent="228" name="byggid">
-      <Position>1</Position>
-      <DataType>int(11)|0s</DataType>
-      <NotNull>1</NotNull>
-      <SequenceIdentity>1</SequenceIdentity>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="244" parent="228" name="ant_etasjer">
-      <Position>2</Position>
-      <DataType>int(11)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="245" parent="228" name="ant_leil">
-      <Position>3</Position>
-      <DataType>int(11)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="246" parent="228" name="bl_id">
+    <column id="235" parent="226" name="epost">
       <Position>4</Position>
-      <DataType>int(11)|0s</DataType>
+      <DataType>varchar(30)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="247" parent="228" name="adresse">
+    <key id="236" parent="226" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>orgnr</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="237" parent="227" name="jobbnr">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="238" parent="227" name="oppdragsnr">
+      <Position>2</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="239" parent="227" name="kandidatid">
+      <Position>3</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="240" parent="227" name="fakt_startdato">
+      <Position>4</Position>
+      <DataType>date|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="241" parent="227" name="fakt_sluttdato">
       <Position>5</Position>
-      <DataType>varchar(30)|0s</DataType>
+      <DataType>date|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="248" parent="228" name="Bygninger_fk1">
-      <ColNames>bl_id</ColNames>
-      <Type>btree</Type>
-    </index>
-    <index id="249" parent="228" name="Bygninger_fk2">
-      <ColNames>adresse</ColNames>
-      <Type>btree</Type>
-    </index>
-    <key id="250" parent="228" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>byggid</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <foreign-key id="251" parent="228" name="Bygninger_fk1">
-      <ColNames>bl_id</ColNames>
-      <RefSchemaName>torstehs</RefSchemaName>
-      <RefTableName>Borettslag</RefTableName>
-      <RefColNames>bl_id</RefColNames>
-    </foreign-key>
-    <foreign-key id="252" parent="228" name="Bygninger_fk2">
-      <ColNames>adresse</ColNames>
-      <RefSchemaName>torstehs</RefSchemaName>
-      <RefTableName>Adresser</RefTableName>
-      <RefColNames>adresse</RefColNames>
-    </foreign-key>
-    <column id="253" parent="229" name="leilighetsnr">
-      <Position>1</Position>
-      <DataType>varchar(10)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="254" parent="229" name="ant_rom">
-      <Position>2</Position>
-      <DataType>int(11)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="255" parent="229" name="ant_m2">
-      <Position>3</Position>
-      <DataType>int(11)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="256" parent="229" name="etasje">
-      <Position>4</Position>
-      <DataType>int(11)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="257" parent="229" name="byggid">
-      <Position>5</Position>
-      <DataType>int(11)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <index id="258" parent="229" name="Leiligheter_fk">
-      <ColNames>byggid</ColNames>
-      <Type>btree</Type>
-    </index>
-    <key id="259" parent="229" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>leilighetsnr</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <foreign-key id="260" parent="229" name="Leiligheter_fk">
-      <ColNames>byggid</ColNames>
-      <RefSchemaName>torstehs</RefSchemaName>
-      <RefTableName>Bygninger</RefTableName>
-      <RefColNames>byggid</RefColNames>
-    </foreign-key>
-    <column id="261" parent="230" name="medlemsnr">
-      <Position>1</Position>
-      <DataType>int(11)|0s</DataType>
-      <NotNull>1</NotNull>
-      <SequenceIdentity>1</SequenceIdentity>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="262" parent="230" name="fornavn">
-      <Position>2</Position>
-      <DataType>varchar(30)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="263" parent="230" name="etternavn">
-      <Position>3</Position>
-      <DataType>varchar(30)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="264" parent="230" name="leilighetsnr">
-      <Position>4</Position>
-      <DataType>varchar(10)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <index id="265" parent="230" name="Medlem_fk">
-      <ColNames>leilighetsnr</ColNames>
-      <Type>btree</Type>
-    </index>
-    <key id="266" parent="230" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>medlemsnr</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <foreign-key id="267" parent="230" name="Medlem_fk">
-      <ColNames>leilighetsnr</ColNames>
-      <RefSchemaName>torstehs</RefSchemaName>
-      <RefTableName>Leiligheter</RefTableName>
-      <RefColNames>leilighetsnr</RefColNames>
-    </foreign-key>
-    <column id="268" parent="231" name="bok_id">
-      <Position>1</Position>
-      <DataType>int(11)|0s</DataType>
-      <NotNull>1</NotNull>
-      <SequenceIdentity>1</SequenceIdentity>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="269" parent="231" name="tittel">
-      <Position>2</Position>
-      <DataType>varchar(30)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="270" parent="231" name="utgitt_aar">
-      <Position>3</Position>
-      <DataType>int(11)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="271" parent="231" name="forlag_id">
-      <Position>4</Position>
-      <DataType>int(11)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <index id="272" parent="231" name="bok_fk">
-      <ColNames>forlag_id</ColNames>
-      <Type>btree</Type>
-    </index>
-    <key id="273" parent="231" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>bok_id</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <foreign-key id="274" parent="231" name="bok_fk">
-      <ColNames>forlag_id</ColNames>
-      <RefSchemaName>torstehs</RefSchemaName>
-      <RefTableName>forlag</RefTableName>
-      <RefColNames>forlag_id</RefColNames>
-    </foreign-key>
-    <column id="275" parent="232" name="bok_id">
-      <Position>1</Position>
-      <DataType>int(11)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="276" parent="232" name="forfatter_id">
-      <Position>2</Position>
-      <DataType>int(11)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <index id="277" parent="232" name="bok_forfatter_fk2">
-      <ColNames>forfatter_id</ColNames>
-      <Type>btree</Type>
-    </index>
-    <key id="278" parent="232" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>bok_id
-forfatter_id</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <foreign-key id="279" parent="232" name="bok_forfatter_fk1">
-      <ColNames>bok_id</ColNames>
-      <RefSchemaName>torstehs</RefSchemaName>
-      <RefTableName>bok</RefTableName>
-      <RefColNames>bok_id</RefColNames>
-    </foreign-key>
-    <foreign-key id="280" parent="232" name="bok_forfatter_fk2">
-      <ColNames>forfatter_id</ColNames>
-      <RefSchemaName>torstehs</RefSchemaName>
-      <RefTableName>forfatter</RefTableName>
-      <RefColNames>forfatter_id</RefColNames>
-    </foreign-key>
-    <column id="281" parent="233" name="forfatter_id">
-      <Position>1</Position>
-      <DataType>int(11)|0s</DataType>
-      <NotNull>1</NotNull>
-      <SequenceIdentity>1</SequenceIdentity>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="282" parent="233" name="fornavn">
-      <Position>2</Position>
-      <DataType>varchar(20)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="283" parent="233" name="etternavn">
-      <Position>3</Position>
-      <DataType>varchar(30)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="284" parent="233" name="fode_aar">
-      <Position>4</Position>
-      <DataType>int(11)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="285" parent="233" name="dod_aar">
-      <Position>5</Position>
-      <DataType>int(11)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="286" parent="233" name="nasjonalitet">
+    <column id="242" parent="227" name="ant_timer">
       <Position>6</Position>
-      <DataType>varchar(20)|0s</DataType>
+      <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="287" parent="233" name="PRIMARY">
+    <index id="243" parent="227" name="jobbhisorikk_fk1">
+      <ColNames>oppdragsnr</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="244" parent="227" name="jobbhistorikk_fk2">
+      <ColNames>kandidatid</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="245" parent="227" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
-      <ColNames>forfatter_id</ColNames>
+      <ColNames>jobbnr</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="288" parent="234" name="forlag_id">
+    <foreign-key id="246" parent="227" name="jobbhisorikk_fk1">
+      <ColNames>oppdragsnr</ColNames>
+      <RefSchemaName>torstehs</RefSchemaName>
+      <RefTableName>oppdrag</RefTableName>
+      <RefColNames>oppdragsnr</RefColNames>
+    </foreign-key>
+    <foreign-key id="247" parent="227" name="jobbhistorikk_fk2">
+      <ColNames>kandidatid</ColNames>
+      <RefSchemaName>torstehs</RefSchemaName>
+      <RefTableName>kandidater</RefTableName>
+      <RefColNames>kandidatid</RefColNames>
+    </foreign-key>
+    <column id="248" parent="228" name="kandidatid">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="289" parent="234" name="forlag_navn">
+    <column id="249" parent="228" name="fornavn">
       <Position>2</Position>
       <DataType>varchar(30)|0s</DataType>
+      <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="290" parent="234" name="adresse">
+    <column id="250" parent="228" name="etternavn">
       <Position>3</Position>
+      <DataType>varchar(30)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="251" parent="228" name="telefon">
+      <Position>4</Position>
+      <DataType>varchar(15)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="252" parent="228" name="epost">
+      <Position>5</Position>
       <DataType>varchar(30)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="291" parent="234" name="telefon">
-      <Position>4</Position>
-      <DataType>char(15)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <key id="292" parent="234" name="PRIMARY">
+    <key id="253" parent="228" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
-      <ColNames>forlag_id</ColNames>
+      <ColNames>kandidatid</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="293" parent="235" name="kons_id">
+    <column id="254" parent="229" name="kandidatid">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
-      <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="294" parent="235" name="fornavn">
+    <column id="255" parent="229" name="kvalifikasjonsid">
       <Position>2</Position>
-      <DataType>varchar(20)|0s</DataType>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="295" parent="235" name="etternavn">
-      <Position>3</Position>
+    <index id="256" parent="229" name="kandidatkval_fk1">
+      <ColNames>kandidatid</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="257" parent="229" name="kandidatkva_fk2">
+      <ColNames>kvalifikasjonsid</ColNames>
+      <Type>btree</Type>
+    </index>
+    <foreign-key id="258" parent="229" name="kandidatkval_fk1">
+      <ColNames>kandidatid</ColNames>
+      <RefSchemaName>torstehs</RefSchemaName>
+      <RefTableName>kandidater</RefTableName>
+      <RefColNames>kandidatid</RefColNames>
+    </foreign-key>
+    <foreign-key id="259" parent="229" name="kandidatkva_fk2">
+      <ColNames>kvalifikasjonsid</ColNames>
+      <RefSchemaName>torstehs</RefSchemaName>
+      <RefTableName>kvalifikasjoner</RefTableName>
+      <RefColNames>kvalifikasjonsid</RefColNames>
+    </foreign-key>
+    <column id="260" parent="230" name="kvalifikasjonsid">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="261" parent="230" name="beskrivelse">
+      <Position>2</Position>
       <DataType>varchar(30)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="296" parent="235" name="epost">
-      <Position>4</Position>
-      <DataType>varchar(30)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <key id="297" parent="235" name="PRIMARY">
+    <key id="262" parent="230" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
-      <ColNames>kons_id</ColNames>
+      <ColNames>kvalifikasjonsid</ColNames>
       <Primary>1</Primary>
     </key>
+    <column id="263" parent="231" name="oppdragsnr">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="264" parent="231" name="orgnr">
+      <Position>2</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="265" parent="231" name="kvalifikasjonsid">
+      <Position>3</Position>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="266" parent="231" name="startdato">
+      <Position>4</Position>
+      <DataType>date|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="267" parent="231" name="sluttdato">
+      <Position>5</Position>
+      <DataType>date|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="268" parent="231" name="oppdrag_fk1">
+      <ColNames>orgnr</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="269" parent="231" name="oppdrag_fk2">
+      <ColNames>kvalifikasjonsid</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="270" parent="231" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>oppdragsnr</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="271" parent="231" name="oppdrag_fk1">
+      <ColNames>orgnr</ColNames>
+      <RefSchemaName>torstehs</RefSchemaName>
+      <RefTableName>bedrifter</RefTableName>
+      <RefColNames>orgnr</RefColNames>
+    </foreign-key>
+    <foreign-key id="272" parent="231" name="oppdrag_fk2">
+      <ColNames>kvalifikasjonsid</ColNames>
+      <RefSchemaName>torstehs</RefSchemaName>
+      <RefTableName>kvalifikasjoner</RefTableName>
+      <RefColNames>kvalifikasjonsid</RefColNames>
+    </foreign-key>
   </database-model>
 </dataSource>
