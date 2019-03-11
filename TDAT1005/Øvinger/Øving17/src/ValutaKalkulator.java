@@ -1,12 +1,15 @@
 import javafx.application.Application;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
+import javafx.geometry.Insets;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javafx.scene.layout.StackPane;
+import javafx.scene.control.ListView;
+import javafx.scene.control.SelectionMode;
+import javafx.scene.control.TextField;
+import javafx.scene.layout.VBox;
+import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
-public class ValutaKalkulator extends Application implements EventHandler<ActionEvent> {
+public class ValutaKalkulator extends Application {
     private Valuta[] valutaliste = {
             new Valuta("Euro", 8.10, 1), new Valuta("US Dollar", 6.23, 1),
             new Valuta("Britiske pund", 12.27, 1), new Valuta("Svenske kroner", 88.96, 100),
@@ -15,6 +18,11 @@ public class ValutaKalkulator extends Application implements EventHandler<Action
     };
 
     Button button;
+    Stage window;
+    Scene scene1;
+    ListView<String> listFrom;
+    ListView<String> listTo;
+    TextField inputbox;
 
     public static void main(String[] args) {
         launch(args);
@@ -22,24 +30,54 @@ public class ValutaKalkulator extends Application implements EventHandler<Action
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        primaryStage.setTitle("Valutakalkulator");
-        button = new Button();
-        button.setText("Click me");
+        window = primaryStage;
+        window.setTitle("Valutakalkulator");
+        button = new Button("Convert");
 
-        button.setOnAction(this);
-
-        StackPane layout = new StackPane();
-        layout.getChildren().add(button);
-
-        Scene scene = new Scene(layout, 300, 250);
-        primaryStage.setScene(scene);
-        primaryStage.show();
-    }
-
-    @Override
-    public void handle(ActionEvent actionEvent) {
-        if(actionEvent.getSource() == button) {
-            System.out.println("Text woop");
+        listFrom = new ListView<>();
+        for (int i = 0; i <valutaliste.length; i++) {
+            listFrom.getItems().add(valutaliste[i].getName());
         }
+        listTo = new ListView<>();
+        for (int i = 0; i < valutaliste.length; i++) {
+            listTo.getItems().add(valutaliste[i].getName());
+        }
+        listFrom.getSelectionModel().setSelectionMode(SelectionMode.SINGLE);
+        listTo.getSelectionModel().setSelectionMode(SelectionMode.SINGLE);
+
+        listFrom.setPrefWidth(100);
+        listFrom.setPrefHeight(100);
+        listTo.setPrefWidth(100);
+        listTo.setPrefHeight(100);
+
+        Text from = new Text();
+        from.setText("From: ");
+        Text to = new Text();
+        to.setText("To: ");
+
+        inputbox = new TextField();
+
+
+        button.setOnAction(e -> buttonClicked());
+
+        VBox fromList = new VBox(10);
+        fromList.setPadding(new Insets(20, 20, 20, 20));
+        fromList.getChildren().addAll(from, listFrom, to, listTo, inputbox, button);
+
+        scene1 = new Scene(fromList, 400, 350);
+        window.setScene(scene1);
+        window.show();
     }
+
+    private void buttonClicked(){
+
+        double convertFrom = valutaliste[listFrom.getSelectionModel().getSelectedIndex()].beregnTilNOK(Integer.parseInt(inputbox.getText()));
+        double convertTo = valutaliste[listTo.getSelectionModel().getSelectedIndex()].beregnFraNOK(convertFrom);
+
+        System.out.println(convertFrom + " " + valutaliste[listFrom.getSelectionModel().getSelectedIndex()].getName());
+        System.out.println(convertTo + " " + valutaliste[listTo.getSelectionModel().getSelectedIndex()].getName());
+
+
+    }
+
 }

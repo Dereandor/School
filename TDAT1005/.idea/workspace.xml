@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db62dfc1-7129-46eb-b6b5-826e9d05629a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/out/production/Øving17/Valuta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Øving17/Valuta.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Øving17/ValutaKalkulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Øving17/ValutaKalkulator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Øvinger/Øving17/src/Valuta.java" beforeDir="false" afterPath="$PROJECT_DIR$/Øvinger/Øving17/src/Valuta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Øvinger/Øving17/src/ValutaKalkulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Øvinger/Øving17/src/ValutaKalkulator.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,12 +79,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Øvinger/Øving17/src/ValutaKalkulator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="276">
+              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#552#553#0" expanded="true" />
-                <element signature="e#580#581#0" expanded="true" />
+                <element signature="e#888#889#0" expanded="true" />
+                <element signature="e#916#917#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,8 +92,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Øvinger/Øving17/src/Valuta.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            <state relative-caret-position="322">
+              <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+              <folding>
+                <element signature="e#273#274#0" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
+                <element signature="e#278#279#0" expanded="true" />
+                <element signature="e#310#311#0" expanded="true" />
+                <element signature="e#342#343#0" expanded="true" />
+                <element signature="e#370#371#0" expanded="true" />
+                <element signature="e#412#413#0" expanded="true" />
+                <element signature="e#446#447#0" expanded="true" />
+                <element signature="e#474#475#0" expanded="true" />
+                <element signature="e#501#502#0" expanded="true" />
+                <element signature="e#538#539#0" expanded="true" />
+                <element signature="e#570#571#0" expanded="true" />
+                <element signature="e#677#678#0" expanded="true" />
+                <element signature="e#721#722#0" expanded="true" />
+                <element signature="e#770#771#0" expanded="true" />
+                <element signature="e#814#815#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -111,10 +130,12 @@
     <findStrings>
       <find>id_nr</find>
       <find>�</find>
+      <find>listView</find>
     </findStrings>
     <replaceStrings>
       <replace>bl_id</replace>
       <replace>å</replace>
+      <replace>listFrom</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -171,8 +192,8 @@
         <option value="$PROJECT_DIR$/ForelesningsEksempler/dp17/TestBorderLayout.java" />
         <option value="$PROJECT_DIR$/ForelesningsEksempler/dp17/TestGridLayout.java" />
         <option value="$PROJECT_DIR$/ForelesningsEksempler/dp17/TestValutaVindu.java" />
-        <option value="$PROJECT_DIR$/Øvinger/Øving17/src/Valuta.java" />
         <option value="$PROJECT_DIR$/Øvinger/Øving17/src/ValutaKalkulatorFX.java" />
+        <option value="$PROJECT_DIR$/Øvinger/Øving17/src/Valuta.java" />
         <option value="$PROJECT_DIR$/Øvinger/Øving17/src/ValutaKalkulator.java" />
       </list>
     </option>
@@ -183,7 +204,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="982" />
     <option name="y" value="25" />
     <option name="width" value="938" />
@@ -242,14 +263,14 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552246278327" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552295943421" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="last_opened_file_path" value="$PATH_TO_FX$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -364,7 +385,7 @@
       <workItem from="1551729174613" duration="1893000" />
       <workItem from="1551787493727" duration="1068000" />
       <workItem from="1552028932328" duration="2135000" />
-      <workItem from="1552165863456" duration="7431000" />
+      <workItem from="1552165863456" duration="18332000" />
     </task>
     <servers />
   </component>
@@ -401,7 +422,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196000000" />
+    <option name="totallyTimeSpent" value="206901000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -413,9 +434,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="982" y="25" width="938" height="1055" extended-state="4" />
+    <frame x="45" y="25" width="1875" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5885529" weight="0.15035538" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5885529" visible="true" weight="0.15035538" />
       <window_info id="Structure" order="1" sideWeight="0.41144708" side_tool="true" weight="0.16657534" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -426,7 +448,7 @@
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.32894737" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32937366" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.2774123" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.2774123" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.3991228" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -974,13 +996,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Øvinger/Øving17/src/Valuta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Øvinger/Øving17/src/ValutaKalkulatorFX.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -988,14 +1003,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Øvinger/Øving17/src/Valuta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+          <folding>
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#770#771#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Øvinger/Øving17/src/ValutaKalkulator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="276">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
           </folding>
         </state>
       </provider>
