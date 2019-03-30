@@ -68,7 +68,7 @@ public class ValutaKalkulator extends Application {
         window.setScene(scene1);
         window.show();
     }
-
+    
     private void buttonClicked(){
 
         double convertFrom = valutaliste[listFrom.getSelectionModel().getSelectedIndex()].beregnTilNOK(Integer.parseInt(inputbox.getText()));
