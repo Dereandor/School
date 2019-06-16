@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ForelesningsEksempler/dp5/FrivilligØving/FrivilligØving.iml" filepath="$PROJECT_DIR$/ForelesningsEksempler/dp5/FrivilligØving/FrivilligØving.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ForelesningsLeksjoner/Leksjon01/Leksjon01.iml" filepath="$PROJECT_DIR$/ForelesningsLeksjoner/Leksjon01/Leksjon01.iml" />
       <module fileurl="file://$PROJECT_DIR$/Øvinger/Øving03/Oppgave1/Oppgave1.iml" filepath="$PROJECT_DIR$/Øvinger/Øving03/Oppgave1/Oppgave1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Øvinger/Øving03/Oppgave2/Oppgave2.iml" filepath="$PROJECT_DIR$/Øvinger/Øving03/Oppgave2/Oppgave2.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/TDAT1005.iml" filepath="$PROJECT_DIR$/.idea/TDAT1005.iml" />
