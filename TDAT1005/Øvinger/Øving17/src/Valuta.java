@@ -2,14 +2,20 @@ public class Valuta {
     private String name;
     private double value;
     private int unit;
-
+    
+    /**
+     *
+     * @param name
+     * @param value
+     * @param unit
+     */
     public Valuta(String name, double value, int unit) {
         this.name = name;
         this.value = value;
         this.unit = unit;
 
     }
-
+    
     public String getName() {
         return name;
     }
