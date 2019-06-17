@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Task6 - HEBIP - Webutvikling 1</title>
+    <link rel="stylesheet" href="Task6CSS.css">
+    <script src="Task6JS.js"></script>
+</head>
+
+<body>
+
+<h1 id="myHeader">HEBIP KLUBBEN'S NETTFORUM!!!</h1>
+
+<div class="topnav">
+    <a href="#">Hjem</a>
+    <a href="#">Bilder</a>
+    <a href="#">Kilder</a>
+</div>
+
+<form name="innmelding" onsubmit="return validateForm()" method="post">
+    Fornavn:<br>
+    <input type="text" name="fornavn" required><br>
+    Etternavn<br>
+    <input type="text" name="etternavn" required><br>
+    Alder:<br>
+    <input type="text" name="alder" required><br>
+    Er du medlem fra før:<br>
+    <input type="radio" name="medlem" value="Ja">JA<br>
+    <input type="radio" name="medlem" value="Nei">NEI<br>
+    Brukernavn:<br>
+    <input type="text" name="brukernavn" required><br>
+    Passord:<br>
+    <input type="password" name="passord" required><br>
+    Gjenta Passord:<br>
+    <input type="password" name="passord2" required><br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+</form>
+</body>
+
+</html>

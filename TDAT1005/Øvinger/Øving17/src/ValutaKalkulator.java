@@ -77,6 +77,9 @@ public class ValutaKalkulator extends Application {
         System.out.println(convertFrom + " " + valutaliste[listFrom.getSelectionModel().getSelectedIndex()].getName());
         System.out.println(convertTo + " " + valutaliste[listTo.getSelectionModel().getSelectedIndex()].getName());
 
+        String convertres = convertTo + " " + valutaliste[listTo.getSelectionModel().getSelectedIndex()].getName();
+
+        Result.display("Resultat", convertres);
 
     }
 
