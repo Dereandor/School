@@ -903,12 +903,50 @@
       <Charset>utf8mb4</Charset>
       <DefaultForCharset>0</DefaultForCharset>
     </collation>
+<<<<<<< HEAD
+    <table id="226" parent="3" name="ansatt"/>
+    <table id="227" parent="3" name="boktittel"/>
+    <table id="228" parent="3" name="eksemplar"/>
+    <table id="229" parent="3" name="prosjekt"/>
+    <table id="230" parent="3" name="prosjektarbeid"/>
+    <table id="231" parent="3" name="prosjektkostnader"/>
+    <column id="232" parent="226" name="ans_id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="233" parent="226" name="fornavn">
+      <Position>2</Position>
+      <DataType>varchar(30)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="234" parent="226" name="etternavn">
+      <Position>3</Position>
+      <DataType>varchar(30)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="235" parent="226" name="timelønn">
+      <Position>4</Position>
+      <DataType>double|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="236" parent="226" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ans_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="237" parent="227" name="isbn">
+=======
     <table id="226" parent="3" name="connected"/>
     <table id="227" parent="3" name="lobby"/>
     <table id="228" parent="3" name="scores"/>
     <table id="229" parent="3" name="turn"/>
     <table id="230" parent="3" name="users"/>
     <column id="231" parent="226" name="lobbyID">
+>>>>>>> fdd44dfb6a0cf6b2fdc4c4c6d21e9b6675876653
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
@@ -961,18 +999,29 @@ userID</ColNames>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
+<<<<<<< HEAD
+    <column id="238" parent="227" name="forfatter">
+=======
     <column id="240" parent="227" name="lobbyName">
+>>>>>>> fdd44dfb6a0cf6b2fdc4c4c6d21e9b6675876653
       <Position>2</Position>
       <DataType>varchar(30)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
+<<<<<<< HEAD
+    <column id="239" parent="227" name="tittel">
+=======
     <column id="241" parent="227" name="maxPlayer">
+>>>>>>> fdd44dfb6a0cf6b2fdc4c4c6d21e9b6675876653
       <Position>3</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
+<<<<<<< HEAD
+    <key id="240" parent="227" name="PRIMARY">
+=======
     <column id="242" parent="227" name="lobbyPassword">
       <Position>4</Position>
       <DataType>blob|0s</DataType>
@@ -985,45 +1034,197 @@ userID</ColNames>
       <ColumnKind>normal</ColumnKind>
     </column>
     <key id="244" parent="227" name="PRIMARY">
+>>>>>>> fdd44dfb6a0cf6b2fdc4c4c6d21e9b6675876653
       <NameSurrogate>1</NameSurrogate>
       <ColNames>lobbyID</ColNames>
       <Primary>1</Primary>
     </key>
+<<<<<<< HEAD
+    <column id="241" parent="228" name="isbn">
+=======
     <column id="245" parent="228" name="userID">
+>>>>>>> fdd44dfb6a0cf6b2fdc4c4c6d21e9b6675876653
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
+<<<<<<< HEAD
+    <column id="242" parent="228" name="eks_nr">
+=======
     <column id="246" parent="228" name="gamesPlayed">
+>>>>>>> fdd44dfb6a0cf6b2fdc4c4c6d21e9b6675876653
       <Position>2</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
+<<<<<<< HEAD
+    <column id="243" parent="228" name="laant_av">
+=======
     <column id="247" parent="228" name="gamesWon">
+>>>>>>> fdd44dfb6a0cf6b2fdc4c4c6d21e9b6675876653
       <Position>3</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
+<<<<<<< HEAD
+    <key id="244" parent="228" name="PRIMARY">
+=======
     <key id="248" parent="228" name="PRIMARY">
+>>>>>>> fdd44dfb6a0cf6b2fdc4c4c6d21e9b6675876653
       <NameSurrogate>1</NameSurrogate>
       <ColNames>userID</ColNames>
       <Primary>1</Primary>
     </key>
+<<<<<<< HEAD
+    <foreign-key id="245" parent="228" name="eksemplar_ibfk_1">
+      <ColNames>isbn</ColNames>
+=======
     <foreign-key id="249" parent="228" name="scores_fk">
       <ColNames>userID</ColNames>
+>>>>>>> fdd44dfb6a0cf6b2fdc4c4c6d21e9b6675876653
       <RefSchemaName>torstehs</RefSchemaName>
       <RefTableName>users</RefTableName>
       <RefColNames>userID</RefColNames>
     </foreign-key>
+<<<<<<< HEAD
+    <column id="246" parent="229" name="prosj_id">
+=======
     <column id="250" parent="229" name="lobbyID">
+>>>>>>> fdd44dfb6a0cf6b2fdc4c4c6d21e9b6675876653
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
+<<<<<<< HEAD
+    <column id="247" parent="229" name="prosj_tittel">
+      <Position>2</Position>
+      <DataType>varchar(30)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="248" parent="229" name="kunde">
+      <Position>3</Position>
+      <DataType>varchar(30)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="249" parent="229" name="budsjett">
+      <Position>4</Position>
+      <DataType>double|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="250" parent="229" name="timefaktor">
+      <Position>5</Position>
+      <DataType>double|0s</DataType>
+      <DefaultExpression>2</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="251" parent="229" name="leder_ans_id">
+      <Position>6</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="252" parent="229" name="prosj_tittel">
+      <ColNames>prosj_tittel</ColNames>
+      <Unique>1</Unique>
+      <Type>btree</Type>
+    </index>
+    <index id="253" parent="229" name="prosjekt_fk">
+      <ColNames>leder_ans_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="254" parent="229" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>prosj_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="255" parent="229" name="prosj_tittel">
+      <ColNames>prosj_tittel</ColNames>
+      <UnderlyingIndexName>prosj_tittel</UnderlyingIndexName>
+    </key>
+    <foreign-key id="256" parent="229" name="prosjekt_fk">
+      <ColNames>leder_ans_id</ColNames>
+      <RefSchemaName>torstehs</RefSchemaName>
+      <RefTableName>ansatt</RefTableName>
+      <RefColNames>ans_id</RefColNames>
+    </foreign-key>
+    <column id="257" parent="230" name="ans_id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="258" parent="230" name="prosj_id">
+      <Position>2</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="259" parent="230" name="dato">
+      <Position>3</Position>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="260" parent="230" name="ant_timer">
+      <Position>4</Position>
+      <DataType>double|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="261" parent="230" name="faktura_sendt">
+      <Position>5</Position>
+      <DataType>date|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="262" parent="230" name="prosj_arb_fk2">
+      <ColNames>prosj_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="263" parent="230" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ans_id
+prosj_id
+dato</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="264" parent="230" name="prosj_arb_fk1">
+      <ColNames>ans_id</ColNames>
+      <RefSchemaName>torstehs</RefSchemaName>
+      <RefTableName>ansatt</RefTableName>
+      <RefColNames>ans_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="265" parent="230" name="prosj_arb_fk2">
+      <ColNames>prosj_id</ColNames>
+      <RefSchemaName>torstehs</RefSchemaName>
+      <RefTableName>prosjekt</RefTableName>
+      <RefColNames>prosj_id</RefColNames>
+    </foreign-key>
+    <column id="266" parent="231" name="prosj_kost_id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="267" parent="231" name="dato">
+      <Position>2</Position>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="268" parent="231" name="beløp">
+      <Position>3</Position>
+      <DataType>double|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="269" parent="231" name="tekst">
+=======
     <column id="251" parent="229" name="userID">
       <Position>2</Position>
       <DataType>int(11)|0s</DataType>
@@ -1069,15 +1270,45 @@ userID</ColNames>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="259" parent="230" name="username">
+>>>>>>> fdd44dfb6a0cf6b2fdc4c4c6d21e9b6675876653
       <Position>4</Position>
       <DataType>varchar(30)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
+<<<<<<< HEAD
+    <column id="270" parent="231" name="faktura_sendt">
+      <Position>5</Position>
+      <DataType>date|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="271" parent="231" name="prosj_id">
+      <Position>6</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="272" parent="231" name="prosj_kost_fk">
+      <ColNames>prosj_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="273" parent="231" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>prosj_kost_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="274" parent="231" name="prosj_kost_fk">
+      <ColNames>prosj_id</ColNames>
+      <RefSchemaName>torstehs</RefSchemaName>
+      <RefTableName>prosjekt</RefTableName>
+      <RefColNames>prosj_id</RefColNames>
+    </foreign-key>
+=======
     <key id="260" parent="230" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>userID</ColNames>
       <Primary>1</Primary>
     </key>
+>>>>>>> fdd44dfb6a0cf6b2fdc4c4c6d21e9b6675876653
   </database-model>
 </dataSource>

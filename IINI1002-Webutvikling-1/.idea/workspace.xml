@@ -2,19 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9940814d-563d-42c4-836e-c57b77c5e31f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TDAT1005/ForelesningsEksempler/dp5/FrivilligØving/FrivilligØving.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TDAT1005/ForelesningsEksempler/dp5/FrivilligØving/src/Frivillig1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task6/Task6CSS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task6/Task6HTML.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task6/Task6JS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDAT1005/ForelesningsEksempler/dp5/FrivilligØving/src/Frivillig2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDAT1005/Øvinger/Øving17/src/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDAT1005/Øvinger/Øving19/src/Bok.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDAT1005/Øvinger/Øving19/src/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDAT1005/Øvinger/Øving19/Øving19.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDAT1005/Øvinger/Øving20/src/Fakturering.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDAT1005/Øvinger/Øving20/Øving20.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task5/Task5CSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/Task5CSS.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task5/Task5HTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/Task5HTML.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task5/Task5JS.js" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/Task5JS.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TDAT1005/.idea/dataSources/db65cc56-b971-4c08-8996-2cf3848d2fd6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TDAT1005/.idea/dataSources/db65cc56-b971-4c08-8996-2cf3848d2fd6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TDAT1005/.idea/dataSources/db65cc56-b971-4c08-8996-2cf3848d2fd6/storage_v2/_src_/schema/torstehs.OE_vyg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TDAT1005/.idea/dataSources/db65cc56-b971-4c08-8996-2cf3848d2fd6/storage_v2/_src_/schema/torstehs.OE_vyg.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../TDAT1005/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TDAT1005/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TDAT1005/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TDAT1005/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TDAT1005/ForelesningsEksempler/dp5/FrivilligØving/src/Frivillig1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TDAT1005/ForelesningsEksempler/dp5/FrivilligØving/src/Frivillig1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TDAT1005/ForelesningsEksempler/dp5/losning5/TittelLeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TDAT1005/ForelesningsEksempler/dp5/losning5/TittelLeter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TDAT1005/out/production/Øving17/ValutaKalkulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TDAT1005/out/production/Øving17/ValutaKalkulator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TDAT1005/Øvinger/Øving11/sql11.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../TDAT1005/Øvinger/Øving11/sql11.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TDAT1005/Øvinger/Øving17/src/ValutaKalkulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TDAT1005/Øvinger/Øving17/src/ValutaKalkulator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,31 +39,17 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+                <state relative-caret-position="460">
+                  <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Task5/Task5HTML.html">
+            <entry file="file://$PROJECT_DIR$/Task6/Task6HTML.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="350">
-                  <caret line="24" column="65" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
-                  <folding>
-                    <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#img#0;n#a#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Task3/Task3Style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="230">
-                  <caret line="10" selection-start-line="10" selection-end-line="25" selection-end-column="1" />
+                <state relative-caret-position="228">
+                  <caret line="21" column="53" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="53" />
                 </state>
               </provider>
             </entry>
@@ -66,28 +59,19 @@
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Task5/Task5JS.js">
+            <entry file="file://$PROJECT_DIR$/Task6/Task6JS.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="387">
-                  <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+                <state>
+                  <caret column="21" selection-start-column="9" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Task3/Task3HTML.html">
+            <entry file="file://$PROJECT_DIR$/Task6/Task6CSS.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="207">
-                  <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Task5/Task5CSS.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="483">
-                  <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+                <state relative-caret-position="575">
+                  <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
                 </state>
               </provider>
             </entry>
@@ -99,8 +83,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -116,9 +100,12 @@
         <option value="$PROJECT_DIR$/Task3/Task3HTML.html" />
         <option value="$PROJECT_DIR$/Task3/Task3Style.css" />
         <option value="$PROJECT_DIR$/Task5/Task5CSS.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Task5/Task5JS.js" />
         <option value="$PROJECT_DIR$/Task5/Task5HTML.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/Task6/Task6HTML.html" />
+        <option value="$PROJECT_DIR$/Task6/Task6CSS.css" />
+        <option value="$PROJECT_DIR$/Task6/Task6JS.js" />
       </list>
     </option>
   </component>
@@ -157,6 +144,11 @@
               <item name="IINI1002-Webutvikling-1" type="b2602c69:ProjectViewProjectNode" />
               <item name="IINI1002-Webutvikling-1" type="462c0819:PsiDirectoryNode" />
               <item name="Task5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IINI1002-Webutvikling-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IINI1002-Webutvikling-1" type="462c0819:PsiDirectoryNode" />
+              <item name="Task6" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -199,11 +191,13 @@
       <workItem from="1551174535382" duration="1644000" />
       <workItem from="1551726861077" duration="1753000" />
       <workItem from="1551965880235" duration="3115000" />
+      <workItem from="1552570891837" duration="8708000" />
+      <workItem from="1552900533529" duration="24000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24505000" />
+    <option name="totallyTimeSpent" value="33237000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -216,9 +210,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="25" width="1875" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.16576675" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16576675" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -258,13 +251,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Task3/Task3Style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -272,36 +258,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Task3/Task3HTML.html">
+    <entry file="file://$PROJECT_DIR$/Task5/Task5JS.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="506">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Task5/Task5CSS.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Task5/Task5JS.js">
+    <entry file="file://$PROJECT_DIR$/Task3/Task3HTML.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        <state relative-caret-position="230">
+          <caret line="10" selection-start-line="10" selection-end-line="14" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Task5/Task5HTML.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="24" column="65" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
+        <state relative-caret-position="161">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task6/Task6HTML.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="21" column="53" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task6/Task6JS.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task6/Task6CSS.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
         </state>
       </provider>
     </entry>

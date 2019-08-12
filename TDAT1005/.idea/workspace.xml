@@ -5,60 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db62dfc1-7129-46eb-b6b5-826e9d05629a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TidlEks/V2019/V2019.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TidlEks/V2019/src/Ansatt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TidlEks/V2019/src/AvdSortKomparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TidlEks/V2019/src/Avdeling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TidlEks/V2019/src/IPasient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TidlEks/V2019/src/ISykehus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TidlEks/V2019/src/Lege.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TidlEks/V2019/src/Pasient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TidlEks/V2019/src/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TidlEks/V2019/src/ReferanseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TidlEks/V2019/src/Sykehus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TidlEks/V2019/src/Sykepleier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/TDAT1005.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TDAT1005.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EksamenV19/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EksamenV19/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EksamenV19/src/ansatt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EksamenV19/src/avdeling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EksamenV19/src/lege.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EksamenV19/src/pasient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EksamenV19/src/person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EksamenV19/src/sykehus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EksamenV19/src/sykepleier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ForelesningsLeksjoner/Leksjon01/Leksjon01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ForelesningsLeksjoner/Leksjon01/src/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2019/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IINI1002-Webutvikling-1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../IINI1002-Webutvikling-1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TDAT1004/Øvinger/Øving09/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TDAT1004/Øvinger/Øving09/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/db65cc56-b971-4c08-8996-2cf3848d2fd6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/db65cc56-b971-4c08-8996-2cf3848d2fd6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EksamenV19/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EksamenV19/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EksamenV19/.idea/dataSources/7a71b79a-a88a-4590-8914-4a51eb55ab58.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EksamenV19/.idea/dataSources/aa9aadf5-8eb0-4f5c-8263-4935b4080a5a.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EksamenV19/.idea/dataSources/fb62edd8-94b2-4ace-bb4a-cd0fe526f2fa.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EksamenV19/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EksamenV19/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EksamenV19/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EksamenV19/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EksamenV19/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EksamenV19/EksamenV19.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EksamenV19/src/ansatt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EksamenV19/src/avdeling.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EksamenV19/src/lege.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EksamenV19/src/pasient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EksamenV19/src/person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EksamenV19/src/sykehus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EksamenV19/src/sykepleier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V2019/.idea/V2019.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V2019/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V2019/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V2019/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V2019/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V2019/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V2019/Out/production/V2019/Sykehus.ucls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V2019/src/Ansatt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V2019/src/AvdSortKomparator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V2019/src/Avdeling.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V2019/src/IPasient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V2019/src/ISykehus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V2019/src/Lege.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V2019/src/Pasient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V2019/src/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V2019/src/ReferanseTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V2019/src/Sykehus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V2019/src/Sykehus.ucls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V2019/src/Sykepleier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenTest/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/mavenTest/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenTest/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/mavenTest/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Øving17/Valuta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Øving17/Valuta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Øving17/ValutaKalkulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Øving17/ValutaKalkulator.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +78,20 @@
     </checked>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ForelesningsLeksjoner/Leksjon01/src/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -124,13 +104,16 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>id_nr</find>
-      <find>�</find>
       <find>listView</find>
+      <find>�</find>
     </findStrings>
     <replaceStrings>
       <replace>bl_id</replace>
       <replace>å</replace>
       <replace>listFrom</replace>
+      <replace>Å</replace>
+      <replace>Ø</replace>
+      <replace>ø</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -139,6 +122,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Øvinger/Øving06/Oppgave1.sql" />
+        <option value="$PROJECT_DIR$/Øvinger/Øving07/src/SoelvMedlem.java" />
+        <option value="$PROJECT_DIR$/Øvinger/Øving07/src/GullMedlem.java" />
+        <option value="$PROJECT_DIR$/Øvinger/Øving07/src/BonusMedlem.java" />
+        <option value="$PROJECT_DIR$/Øvinger/Øving07/src/TestBonusmedlem.java" />
+        <option value="$PROJECT_DIR$/Øvinger/Øving07/src/BasicMedlem.java" />
+        <option value="$PROJECT_DIR$/Øvinger/Øving07/src/Medlemsarkiv.java" />
+        <option value="$PROJECT_DIR$/Øvinger/Øving07/src/TestMedlemsarkiv.java" />
+        <option value="$PROJECT_DIR$/Øvinger/Øving08/src/Staa.java" />
+        <option value="$PROJECT_DIR$/Øvinger/Øving08/src/Billett.java" />
+        <option value="$PROJECT_DIR$/Øvinger/Øving08/src/Sitte.java" />
+        <option value="$PROJECT_DIR$/Øvinger/Øving08/src/Tribune.java" />
+        <option value="$PROJECT_DIR$/Øvinger/Øving08/src/VIP.java" />
         <option value="$PROJECT_DIR$/Øvinger/Øving08/src/Test.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/db65cc56-b971-4c08-8996-2cf3848d2fd6/console_1.sql" />
         <option value="$PROJECT_DIR$/Øvinger/Øving10/byggOgBo_mysql.sql" />
@@ -152,7 +148,6 @@
         <option value="$PROJECT_DIR$/Øvinger/Øving12/src/dyrehage/Rovdyrfabrikk.java" />
         <option value="$PROJECT_DIR$/Øvinger/Øving12/src/dyrehage/SkandinaviskeRovdyr.java" />
         <option value="$PROJECT_DIR$/Øvinger/Øving12/src/dyrehage/Individ.java" />
-        <option value="$PROJECT_DIR$/Øvinger/Øving11/sql11.sql" />
         <option value="$PROJECT_DIR$/Øvinger/Øving11/sql11-2.sql" />
         <option value="$PROJECT_DIR$/ForelesningsEksempler/dp18/kode18mySqlutenPassord/DatabaseKontaktMedExc.java" />
         <option value="$PROJECT_DIR$/ForelesningsEksempler/dp18/kode18mySqlutenPassord/DatabaseKontaktMedExc2.java" />
@@ -162,7 +157,6 @@
         <option value="$PROJECT_DIR$/Øvinger/Øving15/CreateTask1.sql" />
         <option value="$PROJECT_DIR$/Øvinger/Øving15/SelectTask1.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/db65cc56-b971-4c08-8996-2cf3848d2fd6/console.sql" />
-        <option value="$PROJECT_DIR$/ForelesningsEksempler/dp5/FrivilligØving/src/Frivillig1.java" />
         <option value="$PROJECT_DIR$/ForelesningsEksempler/dp17/MyWindow.java" />
         <option value="$PROJECT_DIR$/ForelesningsEksempler/dp17/TestButton.java" />
         <option value="$PROJECT_DIR$/ForelesningsEksempler/dp17/Oppgave1.java" />
@@ -176,20 +170,19 @@
         <option value="$PROJECT_DIR$/Øvinger/Øving17/src/ValutaKalkulatorFX.java" />
         <option value="$PROJECT_DIR$/Øvinger/Øving17/src/Valuta.java" />
         <option value="$PROJECT_DIR$/Øvinger/Øving17/src/ValutaKalkulator.java" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/Øvinger/Øving17/src/Result.java" />
+        <option value="$PROJECT_DIR$/Øvinger/Øving11/sql11.sql" />
+        <option value="$PROJECT_DIR$/Øvinger/Øving20/prosjektorg.sql" />
+        <option value="$PROJECT_DIR$/Øvinger/Øving19/Bok.java" />
+        <option value="$PROJECT_DIR$/Øvinger/Øving19/src/Bok.java" />
+        <option value="$PROJECT_DIR$/Øvinger/Øving20/src/Fakturering.java" />
+        <option value="$PROJECT_DIR$/Øvinger/Øving19/src/Database.java" />
+        <option value="$PROJECT_DIR$/ForelesningsEksempler/dp5/losning5/TittelLeter.java" />
+        <option value="$PROJECT_DIR$/ForelesningsEksempler/dp5/FrivilligØving/src/Frivillig1.java" />
+        <option value="$PROJECT_DIR$/ForelesningsEksempler/dp5/FrivilligØving/src/Frivillig2.java" />
+=======
         <option value="$PROJECT_DIR$/ForelesningsLeksjoner/Leksjon01/src/Student.java" />
-        <option value="$PROJECT_DIR$/V2019/src/Avdeling.java" />
-        <option value="$PROJECT_DIR$/V2019/src/ReferanseTest.java" />
-        <option value="$PROJECT_DIR$/TidlEks/V2019/src/Person.java" />
-        <option value="$PROJECT_DIR$/TidlEks/V2019/src/Ansatt.java" />
-        <option value="$PROJECT_DIR$/TidlEks/V2019/src/Pasient.java" />
-        <option value="$PROJECT_DIR$/TidlEks/V2019/src/IPasient.java" />
-        <option value="$PROJECT_DIR$/TidlEks/V2019/src/Lege.java" />
-        <option value="$PROJECT_DIR$/TidlEks/V2019/src/Avdeling.java" />
-        <option value="$PROJECT_DIR$/TidlEks/V2019/src/ISykehus.java" />
-        <option value="$PROJECT_DIR$/TidlEks/V2019/src/AvdSortKomparator.java" />
-        <option value="$PROJECT_DIR$/TidlEks/V2019/src/Sykehus.java" />
-        <option value="$PROJECT_DIR$/TidlEks/V2019/src/Sykepleier.java" />
-        <option value="$PROJECT_DIR$/TidlEks/V2019/src/ReferanseTest.java" />
       </list>
     </option>
   </component>
@@ -213,6 +206,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,19 +218,19 @@
             <path>
               <item name="TDAT1005" type="b2602c69:ProjectViewProjectNode" />
               <item name="TDAT1005" type="462c0819:PsiDirectoryNode" />
-              <item name="TidlEks" type="462c0819:PsiDirectoryNode" />
+              <item name="ForelesningsLeksjoner" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TDAT1005" type="b2602c69:ProjectViewProjectNode" />
               <item name="TDAT1005" type="462c0819:PsiDirectoryNode" />
-              <item name="TidlEks" type="462c0819:PsiDirectoryNode" />
-              <item name="V2019" type="462c0819:PsiDirectoryNode" />
+              <item name="ForelesningsLeksjoner" type="462c0819:PsiDirectoryNode" />
+              <item name="Leksjon01" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TDAT1005" type="b2602c69:ProjectViewProjectNode" />
               <item name="TDAT1005" type="462c0819:PsiDirectoryNode" />
-              <item name="TidlEks" type="462c0819:PsiDirectoryNode" />
-              <item name="V2019" type="462c0819:PsiDirectoryNode" />
+              <item name="ForelesningsLeksjoner" type="462c0819:PsiDirectoryNode" />
+              <item name="Leksjon01" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -258,10 +253,10 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565523354019" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560633160329" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../LarioKart/lario-kart" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -379,6 +374,16 @@
       <workItem from="1551729174613" duration="1893000" />
       <workItem from="1551787493727" duration="1068000" />
       <workItem from="1552028932328" duration="2135000" />
+<<<<<<< HEAD
+      <workItem from="1552165863456" duration="18931000" />
+      <workItem from="1552305815706" duration="3141000" />
+      <workItem from="1552311482939" duration="284000" />
+      <workItem from="1552331541158" duration="5531000" />
+      <workItem from="1552380166514" duration="341000" />
+      <workItem from="1552381126118" duration="5000" />
+      <workItem from="1552381673895" duration="22000" />
+      <workItem from="1552381767742" duration="15000" />
+=======
       <workItem from="1552165863456" duration="18332000" />
       <workItem from="1553597607832" duration="941000" />
       <workItem from="1553599475973" duration="598000" />
@@ -386,11 +391,6 @@
       <workItem from="1554366577702" duration="1792000" />
       <workItem from="1558514517958" duration="26000" />
       <workItem from="1560601241905" duration="3081000" />
-      <workItem from="1560719599016" duration="307000" />
-      <workItem from="1561471606231" duration="606000" />
-      <workItem from="1564868119633" duration="3111000" />
-      <workItem from="1565435983323" duration="726000" />
-      <workItem from="1565436961191" duration="7747000" />
     </task>
     <servers />
   </component>
@@ -427,7 +427,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="225859000" />
+    <option name="totallyTimeSpent" value="213362000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -441,7 +441,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5885529" visible="true" weight="0.13272922" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5885529" visible="true" weight="0.15991472" />
       <window_info id="Structure" order="1" sideWeight="0.41144708" side_tool="true" weight="0.16657534" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -460,9 +460,15 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32937366" />
       <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32894737" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49972603" weight="0.32822758" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50027394" side_tool="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32894737" />
+=======
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49972603" weight="0.32894737" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50027394" side_tool="true" weight="0.32873562" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32873562" />
+>>>>>>> fdd44dfb6a0cf6b2fdc4c4c6d21e9b6675876653
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32894737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24986331" />
@@ -476,7 +482,11 @@
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32968834" />
     </layout>
     <layout-to-restore>
+<<<<<<< HEAD
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5885529" visible="true" weight="0.15199563" />
+=======
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5885529" visible="true" weight="0.15191898" />
+>>>>>>> fdd44dfb6a0cf6b2fdc4c4c6d21e9b6675876653
       <window_info id="Structure" order="1" sideWeight="0.41144708" side_tool="true" weight="0.16657534" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -495,8 +505,13 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32937366" />
       <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32894737" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49972603" weight="0.32822758" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50027394" side_tool="true" weight="0.32937366" />
+=======
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49972603" weight="0.32894737" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50027394" side_tool="true" weight="0.32873562" />
+>>>>>>> fdd44dfb6a0cf6b2fdc4c4c6d21e9b6675876653
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32894737" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32894737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -507,7 +522,11 @@
       <window_info anchor="right" id="Maven" order="5" weight="0.32968834" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
+<<<<<<< HEAD
+      <window_info anchor="right" id="Database" order="8" visible="true" weight="0.1552761" />
+=======
       <window_info anchor="right" id="Database" order="8" weight="0.1552761" />
+>>>>>>> fdd44dfb6a0cf6b2fdc4c4c6d21e9b6675876653
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32968834" />
     </layout-to-restore>
   </component>
@@ -519,7 +538,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ForelesningsEksempler/dp5/DatabaseWrapper.java">
+    <entry file="file://$PROJECT_DIR$/Øvinger/Øving10/sql10.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
@@ -592,7 +611,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ForelesningsEksempler/dp17/Oppgave2a.java">
+    <entry file="file://$PROJECT_DIR$/Øvinger/Øving08/src/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="801">
           <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
@@ -602,20 +621,123 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ForelesningsEksempler/dp17/OppgaveIndreKlasse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="801">
-          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+    <entry file="das://db65cc56-b971-4c08-8996-2cf3848d2fd6/schema/torstehs/view/deliver18" />
+    <entry file="uml://DATABASE/db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.delinfo">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.delinfo</OriginalElement>
+          <nodes>
+            <node x="154.50000000000003" y="130.0">db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.levinfo</node>
+            <node x="175.00000000000003" y="356.0">db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.delinfo</node>
+            <node x="71.25000000000003" y="522.0">db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.ordredetalj</node>
+            <node x="162.50000000000003" y="0.0">db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.byfylke</node>
+            <node x="0.0" y="332.0">db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.ordrehode</node>
+            <node x="291.75" y="510.0">db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.prisinfo</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.prisinfo" target="db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.levinfo">
+              <point x="43.5" y="-64.0" />
+              <point x="422.25" y="485.0" />
+              <point x="411.0" y="485.0" />
+              <point x="411.0" y="307.0" />
+              <point x="296.25" y="307.0" />
+              <point x="47.25" y="76.0" />
+            </edge>
+            <edge source="db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.ordrehode" target="db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.levinfo">
+              <point x="0.0" y="-64.0" />
+              <point x="77.5" y="307.0" />
+              <point x="201.75000000000003" y="307.0" />
+              <point x="-47.25" y="76.0" />
+            </edge>
+            <edge source="db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.ordredetalj" target="db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.ordrehode">
+              <point x="-41.0" y="-52.0" />
+              <point x="112.25000000000003" y="485.0" />
+              <point x="77.5" y="485.0" />
+              <point x="0.0" y="64.0" />
+            </edge>
+            <edge source="db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.prisinfo" target="db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.delinfo">
+              <point x="-43.5" y="-64.0" />
+              <point x="335.25" y="485.0" />
+              <point x="337.0" y="485.0" />
+              <point x="54.0" y="40.0" />
+            </edge>
+            <edge source="db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.ordredetalj" target="db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.delinfo">
+              <point x="41.0" y="-52.0" />
+              <point x="194.25000000000003" y="485.0" />
+              <point x="229.00000000000003" y="485.0" />
+              <point x="-54.0" y="40.0" />
+            </edge>
+            <edge source="db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.levinfo" target="db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.byfylke">
+              <point x="0.0" y="-76.0" />
+              <point x="0.0" y="40.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8297872340425532" x="234.0" y="289.0" />
+          <SelectedNodes>
+            <node>db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.delinfo</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ForelesningsEksempler/dp17/Oppgave1.java">
+    <entry file="das://db65cc56-b971-4c08-8996-2cf3848d2fd6/schema/torstehs/view/deliver18complete" />
+    <entry file="das://db65cc56-b971-4c08-8996-2cf3848d2fd6/schema/torstehs/view/deliver18compl" />
+    <entry file="uml://DATABASE/db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.byfylke">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.byfylke</OriginalElement>
+          <nodes>
+            <node x="" y="">db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.levinfo</node>
+            <node x="" y="">db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.delinfo</node>
+            <node x="" y="">db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.ordredetalj</node>
+            <node x="" y="">db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.byfylke</node>
+            <node x="" y="">db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.ordrehode</node>
+            <node x="" y="">db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.prisinfo</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8297872340425532" x="305.0" y="319.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Øvinger/Øving11/sql11.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="801">
-          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+        <state relative-caret-position="389">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Øvinger/Øving11/sql11-2.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="40" lean-forward="true" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Øvinger/Øving12/src/dyrehage/Dyr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Øvinger/Øving12/src/dyrehage/Dyregruppe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -709,7 +831,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TidlEks/V2019/src/Pasient.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/db65cc56-b971-4c08-8996-2cf3848d2fd6/console.sql" />
+    <entry file="file://$PROJECT_DIR$/ForelesningsEksempler/dp5/DatabaseWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="17" column="98" selection-start-line="17" selection-start-column="98" selection-end-line="17" selection-end-column="98" />
@@ -721,8 +844,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TidlEks/V2019/src/IPasient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
+        <state relative-caret-position="143">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#1793#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -807,26 +933,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/V2019/Avdeling.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="1265">
+          <caret line="66" column="47" lean-forward="true" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Øvinger/Øving17/src/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+=======
         <state relative-caret-position="372">
-          <caret line="60" column="31" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
+          <caret line="70" column="4" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TidlEks/V2019/src/ReferanseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+        <state relative-caret-position="-276">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TidlEks/V2019/src/Avdeling.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        <state relative-caret-position="115">
+          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
           <folding>
             <element signature="e#106#114#0" expanded="true" />
             <element signature="e#174#183#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ForelesningsEksempler/dp5/losning5/TittelLeter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="39" column="58" selection-start-line="39" selection-start-column="57" selection-end-line="39" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#1793#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ForelesningsEksempler/dp5/losning5/Laantaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#1454#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ForelesningsEksempler/dp5/FrivilligØving/src/Frivillig2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
         </state>
       </provider>
     </entry>

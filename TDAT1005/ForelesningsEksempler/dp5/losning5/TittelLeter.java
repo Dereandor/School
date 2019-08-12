@@ -1,6 +1,6 @@
 /*
  * TittelLeter.java
- * Løsningsforslag, øving 5b)
+ * LÃ¸sningsforslag, Ã˜ving 5b)
  *
  * Programmet leser inn ISBN fra brukeren og leter opp informasjon om aktuelle titler.
  *
@@ -37,7 +37,7 @@ class TittelLeter {
       } else {
         showMessageDialog(null, "Oppgitt ISBN (" + isbn + ") ikke funnet.");
       }
-      svar = showConfirmDialog(null, "Skal flere titler søkes opp? ", "Database", YES_NO_OPTION);
+      svar = showConfirmDialog(null, "Skal flere titler sÃ¸kes opp? ", "Database", YES_NO_OPTION);
     } while (svar == YES_OPTION);
 
     res1.close();

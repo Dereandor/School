@@ -51,7 +51,7 @@ where l.levby not in(select levby from levinfo natural join prisinfo);
 -- hvem kan levere en eller flere av delene på listen:
   alter VIEW deliver18compl AS
   SELECT levnr, p.pris, p.delnr, kvantum, pris*kvantum from ordredetalj
-                                                              natural join prisinfo p -- on levinfo.levnr = p.levnr
+  natural join prisinfo p -- on levinfo.levnr = p.levnr
   where ordrenr='18';
 
 -- hvem kan levere alle delene på listen:
