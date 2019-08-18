@@ -1,195 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AnalysisUIOptions">
-    <option name="SHOW_STRUCTURE" value="true" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="db62dfc1-7129-46eb-b6b5-826e9d05629a" name="Default Changelist" comment="">
-<<<<<<< HEAD
-      <change afterPath="$PROJECT_DIR$/ForelesningsEksempler/dp5/FrivilligØving/src/Frivillig2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Øvinger/Øving17/src/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Øvinger/Øving19/src/Bok.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Øvinger/Øving19/src/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Øvinger/Øving19/Øving19.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Øvinger/Øving20/src/Fakturering.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Øvinger/Øving20/Øving20.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/db65cc56-b971-4c08-8996-2cf3848d2fd6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/db65cc56-b971-4c08-8996-2cf3848d2fd6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ForelesningsEksempler/dp5/FrivilligØving/src/Frivillig1.java" beforeDir="false" afterPath="$PROJECT_DIR$/ForelesningsEksempler/dp5/FrivilligØving/src/Frivillig1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ForelesningsEksempler/dp5/losning5/TittelLeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ForelesningsEksempler/dp5/losning5/TittelLeter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Øving17/ValutaKalkulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Øving17/ValutaKalkulator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Øvinger/Øving11/sql11.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Øvinger/Øving11/sql11.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Øvinger/Øving17/src/ValutaKalkulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Øvinger/Øving17/src/ValutaKalkulator.java" afterDir="false" />
-=======
-      <change afterPath="$PROJECT_DIR$/EksamenV19/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EksamenV19/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EksamenV19/src/ansatt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EksamenV19/src/avdeling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EksamenV19/src/lege.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EksamenV19/src/pasient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EksamenV19/src/person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EksamenV19/src/sykehus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EksamenV19/src/sykepleier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ForelesningsLeksjoner/Leksjon01/Leksjon01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ForelesningsLeksjoner/Leksjon01/src/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/V2019/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IINI1002-Webutvikling-1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../IINI1002-Webutvikling-1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TDAT1004/Øvinger/Øving09/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TDAT1004/Øvinger/Øving09/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/db65cc56-b971-4c08-8996-2cf3848d2fd6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/db65cc56-b971-4c08-8996-2cf3848d2fd6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Øving17/Valuta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Øving17/Valuta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Øving17/ValutaKalkulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Øving17/ValutaKalkulator.class" afterDir="false" />
->>>>>>> fdd44dfb6a0cf6b2fdc4c4c6d21e9b6675876653
+    <list default="true" id="74d70902-d4f6-4643-ae79-bb97dc88541d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ForelesningsLeksjoner/Leksjon01/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/ForelesningsLeksjoner/Leksjon01/src/Student.java" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
-  </component>
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/TDAT1005$TestBonusmedlem.ic" NAME="TestBonusmedlem Coverage Results" MODIFIED="1549273252495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-  </component>
-  <component name="CoverageViewManager">
-    <option name="myElementSize" value="293" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="torstehs@mysql.stud.iie.ntnu.no" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="torstehs@mysql.stud.iie.ntnu.no" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="torstehs@mysql.stud.iie.ntnu.no" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="torstehs: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-    </expand>
-    <select />
-  </component>
-  <component name="ExecutionTargetDialog">
-    <checked>
-      <node key="db65cc56-b971-4c08-8996-2cf3848d2fd6" />
-    </checked>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-<<<<<<< HEAD
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/ForelesningsEksempler/dp5/FrivilligØving/src/Frivillig1.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="460">
-                  <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/ForelesningsEksempler/dp5/FrivilligØving/src/Frivillig2.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="92">
-                  <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/ForelesningsEksempler/dp5/losning5/TittelLeter.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="851">
-                  <caret line="39" column="58" selection-start-line="39" selection-start-column="57" selection-end-line="39" selection-end-column="58" />
-                  <folding>
-                    <element signature="e#0#1793#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/ForelesningsEksempler/dp5/losning5/Laantaker.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <folding>
-                    <element signature="e#0#1454#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
-=======
     <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ForelesningsLeksjoner/Leksjon01/src/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+            <state relative-caret-position="448">
+              <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+                <element signature="e#490#491#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
->>>>>>> fdd44dfb6a0cf6b2fdc4c4c6d21e9b6675876653
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaFXApplication" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>id_nr</find>
-      <find>listView</find>
-      <find>�</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>bl_id</replace>
-      <replace>å</replace>
-      <replace>listFrom</replace>
-      <replace>Å</replace>
-      <replace>Ø</replace>
-      <replace>ø</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -197,95 +39,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-<<<<<<< HEAD
-=======
-        <option value="$PROJECT_DIR$/Øvinger/Øving06/Oppgave1.sql" />
-        <option value="$PROJECT_DIR$/Øvinger/Øving07/src/SoelvMedlem.java" />
-        <option value="$PROJECT_DIR$/Øvinger/Øving07/src/GullMedlem.java" />
-        <option value="$PROJECT_DIR$/Øvinger/Øving07/src/BonusMedlem.java" />
-        <option value="$PROJECT_DIR$/Øvinger/Øving07/src/TestBonusmedlem.java" />
-        <option value="$PROJECT_DIR$/Øvinger/Øving07/src/BasicMedlem.java" />
-        <option value="$PROJECT_DIR$/Øvinger/Øving07/src/Medlemsarkiv.java" />
->>>>>>> fdd44dfb6a0cf6b2fdc4c4c6d21e9b6675876653
-        <option value="$PROJECT_DIR$/Øvinger/Øving07/src/TestMedlemsarkiv.java" />
-        <option value="$PROJECT_DIR$/Øvinger/Øving08/src/Staa.java" />
-        <option value="$PROJECT_DIR$/Øvinger/Øving08/src/Billett.java" />
-        <option value="$PROJECT_DIR$/Øvinger/Øving08/src/Sitte.java" />
-        <option value="$PROJECT_DIR$/Øvinger/Øving08/src/Tribune.java" />
-        <option value="$PROJECT_DIR$/Øvinger/Øving08/src/VIP.java" />
-        <option value="$PROJECT_DIR$/Øvinger/Øving08/src/Test.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/db65cc56-b971-4c08-8996-2cf3848d2fd6/console_1.sql" />
-        <option value="$PROJECT_DIR$/Øvinger/Øving10/byggOgBo_mysql.sql" />
-        <option value="$PROJECT_DIR$/Øvinger/Øving10/sql10.sql" />
-        <option value="$PROJECT_DIR$/Øvinger/Øving11/LevInfo_mysql.sql" />
-        <option value="$PROJECT_DIR$/Øvinger/Øving12/src/Dyr.java" />
-        <option value="$PROJECT_DIR$/Øvinger/Øving12/src/Dyregruppe.java" />
-        <option value="$PROJECT_DIR$/Øvinger/Øving12/src/Individ.java" />
-        <option value="$PROJECT_DIR$/Øvinger/Øving12/src/Fiskestim.java" />
-        <option value="$PROJECT_DIR$/Øvinger/Øving12/src/Fugleflokk.java" />
-        <option value="$PROJECT_DIR$/Øvinger/Øving12/src/dyrehage/Rovdyrfabrikk.java" />
-        <option value="$PROJECT_DIR$/Øvinger/Øving12/src/dyrehage/SkandinaviskeRovdyr.java" />
-        <option value="$PROJECT_DIR$/Øvinger/Øving12/src/dyrehage/Individ.java" />
-        <option value="$PROJECT_DIR$/Øvinger/Øving11/sql11-2.sql" />
-        <option value="$PROJECT_DIR$/ForelesningsEksempler/dp18/kode18mySqlutenPassord/DatabaseKontaktMedExc.java" />
-        <option value="$PROJECT_DIR$/ForelesningsEksempler/dp18/kode18mySqlutenPassord/DatabaseKontaktMedExc2.java" />
-        <option value="$PROJECT_DIR$/ForelesningsEksempler/dp18/kode18mySqlutenPassord/Database.java" />
-        <option value="$PROJECT_DIR$/ForelesningsEksempler/dp18/kode18mySqlutenPassord/DatabaseApplikasjon.java" />
-        <option value="$PROJECT_DIR$/ForelesningsEksempler/dp18/kode18mySqlutenPassord/DatabaseKontakt.java" />
-        <option value="$PROJECT_DIR$/Øvinger/Øving15/CreateTask1.sql" />
-        <option value="$PROJECT_DIR$/Øvinger/Øving15/SelectTask1.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/db65cc56-b971-4c08-8996-2cf3848d2fd6/console.sql" />
-        <option value="$PROJECT_DIR$/ForelesningsEksempler/dp17/MyWindow.java" />
-        <option value="$PROJECT_DIR$/ForelesningsEksempler/dp17/TestButton.java" />
-        <option value="$PROJECT_DIR$/ForelesningsEksempler/dp17/Oppgave1.java" />
-        <option value="$PROJECT_DIR$/ForelesningsEksempler/dp17/OppgaveIndreKlasse.java" />
-        <option value="$PROJECT_DIR$/ForelesningsEksempler/dp17/Oppgave2a.java" />
-        <option value="$PROJECT_DIR$/ForelesningsEksempler/dp17/Oppgave2b.java" />
-        <option value="$PROJECT_DIR$/ForelesningsEksempler/dp17/Oppgave3.java" />
-        <option value="$PROJECT_DIR$/ForelesningsEksempler/dp17/TestBorderLayout.java" />
-        <option value="$PROJECT_DIR$/ForelesningsEksempler/dp17/TestGridLayout.java" />
-        <option value="$PROJECT_DIR$/ForelesningsEksempler/dp17/TestValutaVindu.java" />
-        <option value="$PROJECT_DIR$/Øvinger/Øving17/src/ValutaKalkulatorFX.java" />
-        <option value="$PROJECT_DIR$/Øvinger/Øving17/src/Valuta.java" />
-        <option value="$PROJECT_DIR$/Øvinger/Øving17/src/ValutaKalkulator.java" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/Øvinger/Øving17/src/Result.java" />
-        <option value="$PROJECT_DIR$/Øvinger/Øving11/sql11.sql" />
-        <option value="$PROJECT_DIR$/Øvinger/Øving20/prosjektorg.sql" />
-        <option value="$PROJECT_DIR$/Øvinger/Øving19/Bok.java" />
-        <option value="$PROJECT_DIR$/Øvinger/Øving19/src/Bok.java" />
-        <option value="$PROJECT_DIR$/Øvinger/Øving20/src/Fakturering.java" />
-        <option value="$PROJECT_DIR$/Øvinger/Øving19/src/Database.java" />
-        <option value="$PROJECT_DIR$/ForelesningsEksempler/dp5/losning5/TittelLeter.java" />
-        <option value="$PROJECT_DIR$/ForelesningsEksempler/dp5/FrivilligØving/src/Frivillig1.java" />
-        <option value="$PROJECT_DIR$/ForelesningsEksempler/dp5/FrivilligØving/src/Frivillig2.java" />
-=======
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/ForelesningsLeksjoner/Leksjon01/src/Student.java" />
->>>>>>> fdd44dfb6a0cf6b2fdc4c4c6d21e9b6675876653
       </list>
     </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="982" />
-    <option name="y" value="25" />
-    <option name="width" value="938" />
-    <option name="height" value="1055" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -298,85 +61,20 @@
             <path>
               <item name="TDAT1005" type="b2602c69:ProjectViewProjectNode" />
               <item name="TDAT1005" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="ForelesningsEksempler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TDAT1005" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TDAT1005" type="462c0819:PsiDirectoryNode" />
-              <item name="ForelesningsEksempler" type="462c0819:PsiDirectoryNode" />
-              <item name="dp5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TDAT1005" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TDAT1005" type="462c0819:PsiDirectoryNode" />
-              <item name="ForelesningsEksempler" type="462c0819:PsiDirectoryNode" />
-              <item name="dp5" type="462c0819:PsiDirectoryNode" />
-              <item name="FrivilligØving" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TDAT1005" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TDAT1005" type="462c0819:PsiDirectoryNode" />
-              <item name="ForelesningsEksempler" type="462c0819:PsiDirectoryNode" />
-              <item name="dp5" type="462c0819:PsiDirectoryNode" />
-              <item name="FrivilligØving" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TDAT1005" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TDAT1005" type="462c0819:PsiDirectoryNode" />
-              <item name="ForelesningsEksempler" type="462c0819:PsiDirectoryNode" />
-              <item name="dp5" type="462c0819:PsiDirectoryNode" />
-              <item name="losning5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TDAT1005" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TDAT1005" type="462c0819:PsiDirectoryNode" />
-              <item name="Øvinger" type="462c0819:PsiDirectoryNode" />
-=======
               <item name="ForelesningsLeksjoner" type="462c0819:PsiDirectoryNode" />
->>>>>>> fdd44dfb6a0cf6b2fdc4c4c6d21e9b6675876653
             </path>
             <path>
               <item name="TDAT1005" type="b2602c69:ProjectViewProjectNode" />
               <item name="TDAT1005" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="Øvinger" type="462c0819:PsiDirectoryNode" />
-              <item name="Øving19" type="462c0819:PsiDirectoryNode" />
-=======
               <item name="ForelesningsLeksjoner" type="462c0819:PsiDirectoryNode" />
               <item name="Leksjon01" type="462c0819:PsiDirectoryNode" />
->>>>>>> fdd44dfb6a0cf6b2fdc4c4c6d21e9b6675876653
             </path>
             <path>
               <item name="TDAT1005" type="b2602c69:ProjectViewProjectNode" />
               <item name="TDAT1005" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="Øvinger" type="462c0819:PsiDirectoryNode" />
-              <item name="Øving19" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TDAT1005" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TDAT1005" type="462c0819:PsiDirectoryNode" />
-              <item name="Øvinger" type="462c0819:PsiDirectoryNode" />
-              <item name="Øving20" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TDAT1005" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TDAT1005" type="462c0819:PsiDirectoryNode" />
-              <item name="Øvinger" type="462c0819:PsiDirectoryNode" />
-              <item name="Øving20" type="462c0819:PsiDirectoryNode" />
-=======
               <item name="ForelesningsLeksjoner" type="462c0819:PsiDirectoryNode" />
               <item name="Leksjon01" type="462c0819:PsiDirectoryNode" />
->>>>>>> fdd44dfb6a0cf6b2fdc4c4c6d21e9b6675876653
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TDAT1005" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TDAT1005" type="462c0819:PsiDirectoryNode" />
-              <item name="Øvinger" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -385,37 +83,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-<<<<<<< HEAD
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552336582422" />
-    <property name="database.console.LAST_STATE" value="false" />
-    <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../LarioKart/lario-kart" />
-=======
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560633160329" />
-    <property name="database.console.LAST_STATE" value="false" />
-    <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../LarioKart/lario-kart" />
->>>>>>> fdd44dfb6a0cf6b2fdc4c4c6d21e9b6675876653
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Øvinger/Øving07" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -429,28 +103,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestStudent">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="Øving08" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestBonusmedlem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestBonusmedlem" />
-      <module name="Øving07" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMedlemsarkiv" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestMedlemsarkiv" />
-      <module name="Øving07" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="TestStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestStudent" />
       <module name="Leksjon01" />
@@ -458,28 +111,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValutaKalkulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ValutaKalkulator" />
-      <module name="Øving17" />
-      <option name="VM_PARAMETERS" value="--module-path ${PATH_TO_FX} --add-modules=javafx.controls,javafx.fxml" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.TestBonusmedlem" />
-      <item itemvalue="Application.TestMedlemsarkiv" />
-      <item itemvalue="Application.ValutaKalkulator" />
-      <item itemvalue="Application.TestStudent" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.TestStudent" />
-        <item itemvalue="Application.ValutaKalkulator" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.TestMedlemsarkiv" />
-        <item itemvalue="Application.TestBonusmedlem" />
       </list>
     </recent_temporary>
   </component>
@@ -488,919 +122,75 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="db62dfc1-7129-46eb-b6b5-826e9d05629a" name="Default Changelist" comment="" />
-      <created>1548076604520</created>
+      <changelist id="74d70902-d4f6-4643-ae79-bb97dc88541d" name="Default Changelist" comment="" />
+      <created>1560782324545</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1548076604520</updated>
-      <workItem from="1548076606115" duration="3209000" />
-      <workItem from="1548089876767" duration="29391000" />
-      <workItem from="1548238581749" duration="1484000" />
-      <workItem from="1548242919346" duration="5095000" />
-      <workItem from="1548399668073" duration="3322000" />
-      <workItem from="1548595728067" duration="628000" />
-      <workItem from="1548662193014" duration="14502000" />
-      <workItem from="1548710596688" duration="18022000" />
-      <workItem from="1548771049882" duration="3157000" />
-      <workItem from="1548846535873" duration="2399000" />
-      <workItem from="1548933887508" duration="57000" />
-      <workItem from="1548951365347" duration="33000" />
-      <workItem from="1548951554034" duration="1329000" />
-      <workItem from="1549218791529" duration="20733000" />
-      <workItem from="1549284520865" duration="4626000" />
-      <workItem from="1549316880030" duration="1921000" />
-      <workItem from="1549367338289" duration="20363000" />
-      <workItem from="1549447485947" duration="1238000" />
-      <workItem from="1549872306112" duration="11754000" />
-      <workItem from="1549910034075" duration="1016000" />
-      <workItem from="1549961800042" duration="23152000" />
-      <workItem from="1551081695837" duration="2465000" />
-      <workItem from="1551165133763" duration="13577000" />
-      <workItem from="1551729174613" duration="1893000" />
-      <workItem from="1551787493727" duration="1068000" />
-      <workItem from="1552028932328" duration="2135000" />
-<<<<<<< HEAD
-      <workItem from="1552165863456" duration="18931000" />
-      <workItem from="1552305815706" duration="3141000" />
-      <workItem from="1552311482939" duration="284000" />
-      <workItem from="1552331541158" duration="5531000" />
-      <workItem from="1552380166514" duration="341000" />
-      <workItem from="1552381126118" duration="5000" />
-      <workItem from="1552381673895" duration="22000" />
-      <workItem from="1552381767742" duration="15000" />
-=======
-      <workItem from="1552165863456" duration="18332000" />
-      <workItem from="1553597607832" duration="941000" />
-      <workItem from="1553599475973" duration="598000" />
-      <workItem from="1553863601215" duration="23000" />
-      <workItem from="1554366577702" duration="1792000" />
-      <workItem from="1558514517958" duration="26000" />
-      <workItem from="1560601241905" duration="3081000" />
->>>>>>> fdd44dfb6a0cf6b2fdc4c4c6d21e9b6675876653
+      <updated>1560782324545</updated>
+      <workItem from="1560782330221" duration="3484000" />
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="TestMedlemsarkiv - 2019.02.04 at 13h 32m 13s.xml">
-      <configuration name="TestMedlemsarkiv" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMedlemsarkiv - 2019.02.04 at 13h 33m 21s.xml">
-      <configuration name="TestMedlemsarkiv" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMedlemsarkiv - 2019.02.04 at 13h 37m 41s.xml">
-      <configuration name="TestMedlemsarkiv" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMedlemsarkiv_testNyMedlem - 2019.02.04 at 13h 37m 55s.xml">
-      <configuration name="TestMedlemsarkiv.testNyMedlem" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMedlemsarkiv_testNyMedlem - 2019.02.04 at 13h 47m 05s.xml">
-      <configuration name="TestMedlemsarkiv.testNyMedlem" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMedlemsarkiv - 2019.02.04 at 13h 47m 38s.xml">
-      <configuration name="TestMedlemsarkiv" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMedlemsarkiv - 2019.02.04 at 13h 49m 12s.xml">
-      <configuration name="TestMedlemsarkiv" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMedlemsarkiv - 2019.02.04 at 13h 50m 08s.xml">
-      <configuration name="TestMedlemsarkiv" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMedlemsarkiv - 2019.02.04 at 13h 52m 06s.xml">
-      <configuration name="TestMedlemsarkiv" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMedlemsarkiv - 2019.02.04 at 13h 52m 33s.xml">
-      <configuration name="TestMedlemsarkiv" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="216839000" />
-=======
-    <option name="totallyTimeSpent" value="213362000" />
->>>>>>> fdd44dfb6a0cf6b2fdc4c4c6d21e9b6675876653
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="3484000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="45" y="25" width="1875" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-<<<<<<< HEAD
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5885529" visible="true" weight="0.16019683" />
-=======
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5885529" visible="true" weight="0.15991472" />
->>>>>>> fdd44dfb6a0cf6b2fdc4c4c6d21e9b6675876653
-      <window_info id="Structure" order="1" sideWeight="0.41144708" side_tool="true" weight="0.16657534" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Learn" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" order="0" weight="0.32894737" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32937366" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.2774123" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.3991228" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" weight="0.32894737" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32937366" />
-      <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32894737" />
-<<<<<<< HEAD
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49972603" weight="0.32822758" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50027394" side_tool="true" weight="0.32937366" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32894737" />
-=======
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49972603" weight="0.32894737" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50027394" side_tool="true" weight="0.32873562" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32873562" />
->>>>>>> fdd44dfb6a0cf6b2fdc4c4c6d21e9b6675876653
-      <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32894737" />
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Learn" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24986331" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Messages" weight="0.32894737" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32894737" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24986331" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.32968834" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" visible="true" weight="0.15511727" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32968834" />
     </layout>
-    <layout-to-restore>
-<<<<<<< HEAD
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5885529" visible="true" weight="0.15199563" />
-=======
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5885529" visible="true" weight="0.15191898" />
->>>>>>> fdd44dfb6a0cf6b2fdc4c4c6d21e9b6675876653
-      <window_info id="Structure" order="1" sideWeight="0.41144708" side_tool="true" weight="0.16657534" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Learn" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" order="0" weight="0.32894737" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32937366" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.2774123" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.3991228" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" weight="0.32894737" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32937366" />
-      <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32894737" />
-<<<<<<< HEAD
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49972603" weight="0.32822758" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50027394" side_tool="true" weight="0.32937366" />
-=======
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49972603" weight="0.32894737" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50027394" side_tool="true" weight="0.32873562" />
->>>>>>> fdd44dfb6a0cf6b2fdc4c4c6d21e9b6675876653
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32894737" />
-      <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32894737" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24986331" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.32968834" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-<<<<<<< HEAD
-      <window_info anchor="right" id="Database" order="8" visible="true" weight="0.1552761" />
-=======
-      <window_info anchor="right" id="Database" order="8" weight="0.1552761" />
->>>>>>> fdd44dfb6a0cf6b2fdc4c4c6d21e9b6675876653
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32968834" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
-=======
-    <entry file="file://$PROJECT_DIR$/Øvinger/Øving10/sql10.sql">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1144">
-          <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Øvinger/Øving09/konto.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="53" lean-forward="true" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Øvinger/Øving06/Oppgave1.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Øvinger/Øving06/bokskript_mysql.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-736">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Øvinger/Øving11/LevInfo_mysql.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-437">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://db65cc56-b971-4c08-8996-2cf3848d2fd6/schema/torstehs/view/levinfo_old" />
-    <entry file="file://$PROJECT_DIR$/Øvinger/Øving07/TestBonusmedlem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Øvinger/Øving07/src/TestBonusmedlem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-695">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
->>>>>>> fdd44dfb6a0cf6b2fdc4c4c6d21e9b6675876653
-    <entry file="file://$PROJECT_DIR$/Øvinger/Øving08/src/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1191">
-          <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://db65cc56-b971-4c08-8996-2cf3848d2fd6/schema/torstehs/view/deliver18" />
-    <entry file="uml://DATABASE/db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.delinfo">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.delinfo</OriginalElement>
-          <nodes>
-            <node x="154.50000000000003" y="130.0">db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.levinfo</node>
-            <node x="175.00000000000003" y="356.0">db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.delinfo</node>
-            <node x="71.25000000000003" y="522.0">db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.ordredetalj</node>
-            <node x="162.50000000000003" y="0.0">db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.byfylke</node>
-            <node x="0.0" y="332.0">db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.ordrehode</node>
-            <node x="291.75" y="510.0">db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.prisinfo</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.prisinfo" target="db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.levinfo">
-              <point x="43.5" y="-64.0" />
-              <point x="422.25" y="485.0" />
-              <point x="411.0" y="485.0" />
-              <point x="411.0" y="307.0" />
-              <point x="296.25" y="307.0" />
-              <point x="47.25" y="76.0" />
-            </edge>
-            <edge source="db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.ordrehode" target="db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.levinfo">
-              <point x="0.0" y="-64.0" />
-              <point x="77.5" y="307.0" />
-              <point x="201.75000000000003" y="307.0" />
-              <point x="-47.25" y="76.0" />
-            </edge>
-            <edge source="db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.ordredetalj" target="db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.ordrehode">
-              <point x="-41.0" y="-52.0" />
-              <point x="112.25000000000003" y="485.0" />
-              <point x="77.5" y="485.0" />
-              <point x="0.0" y="64.0" />
-            </edge>
-            <edge source="db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.prisinfo" target="db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.delinfo">
-              <point x="-43.5" y="-64.0" />
-              <point x="335.25" y="485.0" />
-              <point x="337.0" y="485.0" />
-              <point x="54.0" y="40.0" />
-            </edge>
-            <edge source="db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.ordredetalj" target="db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.delinfo">
-              <point x="41.0" y="-52.0" />
-              <point x="194.25000000000003" y="485.0" />
-              <point x="229.00000000000003" y="485.0" />
-              <point x="-54.0" y="40.0" />
-            </edge>
-            <edge source="db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.levinfo" target="db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.byfylke">
-              <point x="0.0" y="-76.0" />
-              <point x="0.0" y="40.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.8297872340425532" x="234.0" y="289.0" />
-          <SelectedNodes>
-            <node>db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.delinfo</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://db65cc56-b971-4c08-8996-2cf3848d2fd6/schema/torstehs/view/deliver18complete" />
-    <entry file="das://db65cc56-b971-4c08-8996-2cf3848d2fd6/schema/torstehs/view/deliver18compl" />
-    <entry file="uml://DATABASE/db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.byfylke">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.byfylke</OriginalElement>
-          <nodes>
-            <node x="" y="">db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.levinfo</node>
-            <node x="" y="">db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.delinfo</node>
-            <node x="" y="">db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.ordredetalj</node>
-            <node x="" y="">db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.byfylke</node>
-            <node x="" y="">db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.ordrehode</node>
-            <node x="" y="">db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.prisinfo</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.8297872340425532" x="305.0" y="319.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Øvinger/Øving12/src/dyrehage/Dyr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Øvinger/Øving12/src/dyrehage/Dyregruppe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Øvinger/Øving12/src/dyrehage/Rovdyrfabrikk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Øvinger/Øving12/src/dyrehage/Individ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding>
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#668#669#0" expanded="true" />
-            <element signature="e#781#782#0" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Øvinger/Øving12/src/dyrehage/SkandinaviskeRovdyr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Øvinger/Øving12/src/dyrehage/Fugleflokk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ForelesningsEksempler/dp18/kode18mySqlutenPassord/DatabaseKontaktMedExc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="14" column="91" lean-forward="true" selection-start-line="14" selection-start-column="91" selection-end-line="14" selection-end-column="91" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ForelesningsEksempler/dp18/kode18mySqlutenPassord/DatabaseKontaktMedExc2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-165">
-          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ForelesningsEksempler/dp18/kode18mySqlutenPassord/Database.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ForelesningsEksempler/dp18/kode18mySqlutenPassord/DatabaseApplikasjon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-276">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ForelesningsEksempler/dp18/kode18mySqlutenPassord/DatabaseKontakt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Øvinger/Øving15/Task1" />
-    <entry file="file://$PROJECT_DIR$/Øvinger/Øving10/byggOgBo_mysql.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-430">
-          <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://DATABASE/db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.bedrifter">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.bedrifter</OriginalElement>
-          <nodes />
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.7511737089201878" x="1062.0" y="522.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Øvinger/Øving15/SelectTask1.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Øvinger/Øving15/CreateTask1.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ForelesningsEksempler/dp5/FrivilligØving/oving_db.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="28" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/db65cc56-b971-4c08-8996-2cf3848d2fd6/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="28" column="80" selection-start-line="28" selection-start-column="80" selection-end-line="28" selection-end-column="80" />
-=======
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/db65cc56-b971-4c08-8996-2cf3848d2fd6/console.sql" />
-    <entry file="file://$PROJECT_DIR$/ForelesningsEksempler/dp5/DatabaseWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ForelesningsEksempler/dp5/FrivilligØving/src/Frivillig1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ForelesningsEksempler/dp5/losning5/TittelLeter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#1793#0" expanded="true" />
-          </folding>
->>>>>>> fdd44dfb6a0cf6b2fdc4c4c6d21e9b6675876653
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ForelesningsEksempler/dp17/MyWindow.java" />
-    <entry file="file://$PROJECT_DIR$/ForelesningsEksempler/dp17/TestGridLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="801">
-          <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ForelesningsEksempler/dp17/TestBorderLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="801">
-          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ForelesningsEksempler/dp17/Oppgave3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="801">
-          <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ForelesningsEksempler/dp17/Oppgave2b.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="801">
-          <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ForelesningsEksempler/dp17/Oppgave2a.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="801">
-          <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ForelesningsEksempler/dp17/OppgaveIndreKlasse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="801">
-          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ForelesningsEksempler/dp17/Oppgave1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="801">
-          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ForelesningsEksempler/dp17/TestButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ForelesningsEksempler/dp17/TestValutaVindu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23">
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Øvinger/Øving17/src/ValutaKalkulatorFX.java" />
-    <entry file="file://$PROJECT_DIR$/Øvinger/Øving17/src/ValutaKalkulator.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="1265">
-          <caret line="66" column="47" lean-forward="true" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Øvinger/Øving17/src/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-=======
-        <state relative-caret-position="372">
-          <caret line="70" column="4" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
->>>>>>> fdd44dfb6a0cf6b2fdc4c4c6d21e9b6675876653
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Øvinger/Øving17/src/Valuta.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Øvinger/Øving11/sql11.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="43" column="48" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Øvinger/Øving11/sql11-2.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="26" column="40" lean-forward="true" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ForelesningsEksempler/dp5/DatabaseWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="35" column="45" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Øvinger/Øving20/prosjektorg.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-621">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Øvinger/Øving19/Bok.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="35" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Øvinger/Øving19/src/Bok.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Øvinger/Øving19/src/Database.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="51" lean-forward="true" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://DATABASE/db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.ansatt">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.ansatt</OriginalElement>
-          <nodes>
-            <node x="0.0" y="404.0">db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.prosjektkostnader</node>
-            <node x="217.0" y="416.0">db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.prosjektarbeid</node>
-            <node x="152.625" y="0.0">db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.ansatt</node>
-            <node x="44.5" y="178.0">db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.prosjekt</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.prosjekt" target="db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.ansatt">
-              <point x="0.0" y="-88.0" />
-              <point x="152.5" y="153.0" />
-              <point x="204.125" y="153.0" />
-              <point x="-51.5" y="64.0" />
-            </edge>
-            <edge source="db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.prosjektkostnader" target="db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.prosjekt">
-              <point x="0.0" y="-88.0" />
-              <point x="-54.0" y="88.0" />
-            </edge>
-            <edge source="db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.prosjektarbeid" target="db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.prosjekt">
-              <point x="-47.25" y="-76.0" />
-              <point x="264.25" y="379.0" />
-              <point x="206.5" y="379.0" />
-              <point x="54.0" y="88.0" />
-            </edge>
-            <edge source="db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.prosjektarbeid" target="db65cc56-b971-4c08-8996-2cf3848d2fd6.TABLE:torstehs.ansatt">
-              <point x="47.25" y="-76.0" />
-              <point x="358.75" y="153.0" />
-              <point x="307.125" y="153.0" />
-              <point x="51.5" y="64.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="164.0" y="290.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Øvinger/Øving20/src/Fakturering.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="138" lean-forward="true" selection-start-line="8" selection-start-column="138" selection-end-line="8" selection-end-column="138" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ForelesningsEksempler/dp5/FrivilligØving/src/Frivillig1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-=======
-        <state relative-caret-position="-276">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="-16014">
+          <caret line="338" selection-start-line="338" selection-end-line="338" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ForelesningsLeksjoner/Leksjon01/src/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
->>>>>>> fdd44dfb6a0cf6b2fdc4c4c6d21e9b6675876653
+        <state relative-caret-position="448">
+          <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ForelesningsEksempler/dp5/losning5/TittelLeter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="851">
-          <caret line="39" column="58" selection-start-line="39" selection-start-column="57" selection-end-line="39" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#1793#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ForelesningsEksempler/dp5/losning5/Laantaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#1454#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ForelesningsEksempler/dp5/FrivilligØving/src/Frivillig2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>info.cukes:cucumber-java:1.2.5</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>10</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Øving17</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>JavaFX</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

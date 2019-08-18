@@ -24,6 +24,27 @@ public class Student {
         Period periode = Period.between(LocalDate.parse(birthday, format), LocalDate.now());
         return periode.getYears();
     }
+
+    public boolean regNewGrade(char grade) {
+        if(VALID_GRA.indexOf(grade) >= 0) {
+            if(number == grades.length) {
+                expandArray();
+            }
+            grades[number] = grade;
+            number++;
+            return true;
+
+        }
+        return false;
+    }
+
+    private void expandArray() {
+        char[] newgrades = new char[grades.length + 2];
+        for (int i = 0; i < grades.length; i++) {
+            newgrades[i] = grades[i];
+        }
+        grades = newgrades;
+    }
 }
 
 class TestStudent {
