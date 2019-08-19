@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9940814d-563d-42c4-836e-c57b77c5e31f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Task6/Task6CSS.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task6/Task6HTML.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task6/Task6JS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TDAT1005/ForelesningsEksempler/dp5/FrivilligØving/src/Frivillig2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TDAT1005/Øvinger/Øving17/src/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TDAT1005/Øvinger/Øving19/src/Bok.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TDAT1005/Øvinger/Øving19/src/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TDAT1005/Øvinger/Øving19/Øving19.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TDAT1005/Øvinger/Øving20/src/Fakturering.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TDAT1005/Øvinger/Øving20/Øving20.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TDAT1005/.idea/dataSources/db65cc56-b971-4c08-8996-2cf3848d2fd6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TDAT1005/.idea/dataSources/db65cc56-b971-4c08-8996-2cf3848d2fd6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TDAT1005/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TDAT1005/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TDAT1005/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TDAT1005/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TDAT1005/ForelesningsEksempler/dp5/FrivilligØving/src/Frivillig1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TDAT1005/ForelesningsEksempler/dp5/FrivilligØving/src/Frivillig1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TDAT1005/ForelesningsEksempler/dp5/losning5/TittelLeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TDAT1005/ForelesningsEksempler/dp5/losning5/TittelLeter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TDAT1005/out/production/Øving17/ValutaKalkulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TDAT1005/out/production/Øving17/ValutaKalkulator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TDAT1005/Øvinger/Øving11/sql11.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../TDAT1005/Øvinger/Øving11/sql11.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TDAT1005/Øvinger/Øving17/src/ValutaKalkulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TDAT1005/Øvinger/Øving17/src/ValutaKalkulator.java" afterDir="false" />
-    </list>
+    <list default="true" id="9940814d-563d-42c4-836e-c57b77c5e31f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -40,7 +19,7 @@
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="460">
-                  <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+                  <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
                 </state>
               </provider>
             </entry>
@@ -123,6 +102,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,11 +134,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -193,11 +173,12 @@
       <workItem from="1551965880235" duration="3115000" />
       <workItem from="1552570891837" duration="8708000" />
       <workItem from="1552900533529" duration="24000" />
+      <workItem from="1566134200713" duration="24000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33237000" />
+    <option name="totallyTimeSpent" value="33261000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -294,7 +275,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
         </state>
       </provider>
     </entry>
