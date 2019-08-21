@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1eb1a009-05b9-47e5-b2de-3752f5593d71" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Tasks/Task1/D_D.0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tasks/Task1/LogoTextHere.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tasks/Task1/ghostsdragonspear1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TDAT1005/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TDAT1005/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tasks/Task1/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/Task1/Home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tasks/Task1/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/Task1/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TDAT2005/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TDAT2005/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TDAT2005/Øvinger/Øving01/src/Aksjeanalyse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TDAT2005/Øvinger/Øving01/src/Aksjeanalyse.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +82,7 @@
       <workItem from="1566134535357" duration="1854000" />
       <workItem from="1566296654057" duration="770000" />
       <workItem from="1566298285635" duration="24000" />
-      <workItem from="1566298333028" duration="4172000" />
+      <workItem from="1566298333028" duration="5450000" />
     </task>
     <servers />
   </component>
