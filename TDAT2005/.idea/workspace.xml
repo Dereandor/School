@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad8c9595-44e1-422f-b61c-9b32995c5cb8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Øvinger/Øving01/src/Aksjeanalyse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ovinger/Oving01/src/Aksjeanalyse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Øvinger/Øving01/Øving01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Ovinger/Oving01/Oving01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ovinger/Oving01/src/Aksjeanalyse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ovinger/Oving01/src/Aksjeanalyse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Oving01/Aksjeanalyse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oving01/Aksjeanalyse.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,6 +88,8 @@
       <workItem from="1566372374176" duration="47000" />
       <workItem from="1566372494924" duration="6221000" />
       <workItem from="1566412679939" duration="3082000" />
+      <workItem from="1566462663680" duration="4236000" />
+      <workItem from="1566469884776" duration="3702000" />
     </task>
     <servers />
   </component>
