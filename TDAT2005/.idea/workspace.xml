@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad8c9595-44e1-422f-b61c-9b32995c5cb8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../TDAT2003/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TDAT2003/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Øvinger/Øving01/src/Aksjeanalyse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Øvinger/Øving01/src/Aksjeanalyse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Øvinger/Øving01/src/Aksjeanalyse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ovinger/Oving01/src/Aksjeanalyse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Øvinger/Øving01/Øving01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Ovinger/Oving01/Oving01.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,17 +26,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="982" />
-    <option name="y" value="25" />
-    <option name="width" value="938" />
-    <option name="height" value="1055" />
-  </component>
   <component name="ProjectId" id="1Pj0nE21hY7IEdgws0XBO4gB6Zx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -49,7 +45,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -66,7 +62,7 @@
   <component name="RunManager">
     <configuration name="Aksjeanalyse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Aksjeanalyse" />
-      <module name="Øving01" />
+      <module name="Oving01" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -91,7 +87,8 @@
       <workItem from="1566202254282" duration="820000" />
       <workItem from="1566207317646" duration="1535000" />
       <workItem from="1566372374176" duration="47000" />
-      <workItem from="1566372494924" duration="3646000" />
+      <workItem from="1566372494924" duration="6221000" />
+      <workItem from="1566412679939" duration="3082000" />
     </task>
     <servers />
   </component>
@@ -110,6 +107,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="masterDetails">
     <states>

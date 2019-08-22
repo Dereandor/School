@@ -2,6 +2,23 @@ import java.util.Arrays;
 
 public class Aksjeanalyse {
 
+
+
+    public int bestBuyTime(int[] pris) {
+
+        if(pris.length == 0) return 0;
+
+        int min = pris[0];
+        int buypoint = 0;
+        for (int i = 0; i < pris.length; i++) {
+            if(pris[i] <= min) {
+                min = pris[i];
+                buypoint = i+1;
+            }
+        }
+        return buypoint;
+    }
+
     public int maxProfit(int[] pris) {
         if(pris.length == 0) return 0;
 
@@ -30,12 +47,14 @@ public class Aksjeanalyse {
     public static void main(String[]args) {
 
         int[] kurs = {9, 12, 3, 5, 7, 6, 8, 7, 2};
+        int[] kursendring = {-1, 3, -9, 2, 2, -1, 2, -1, -5};
 
         Aksjeanalyse a = new Aksjeanalyse();
 
         int result = a.maxProfit(kurs);
 
-        System.out.println("max profit er: " + result);
+        System.out.println("max profit er: " + a.maxProfit(kurs));
+        System.out.println("beste kjøpstidspunkt er: " + a.bestBuyTime(kursendring));
 
     }
 }

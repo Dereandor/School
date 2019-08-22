@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1eb1a009-05b9-47e5-b2de-3752f5593d71" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Tasks/Task2/Task2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tasks/Task2/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Task1/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/Task1/Home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Task1/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/Task1/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TDAT2005/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TDAT2005/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TDAT2005/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TDAT2005/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TDAT2005/Øvinger/Øving01/src/Aksjeanalyse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TDAT2005/Ovinger/Oving01/src/Aksjeanalyse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TDAT2005/Øvinger/Øving01/Øving01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../TDAT2005/Ovinger/Oving01/Oving01.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,16 +28,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/TDAT2003.iml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-      </list>
-    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="282" />
@@ -83,6 +81,7 @@
       <workItem from="1566296654057" duration="770000" />
       <workItem from="1566298285635" duration="24000" />
       <workItem from="1566298333028" duration="5450000" />
+      <workItem from="1566455821080" duration="4703000" />
     </task>
     <servers />
   </component>
