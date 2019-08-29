@@ -83,11 +83,11 @@ public class Aksjeanalyse {
 
         int[] randomKurs = a.createRandomTable(10);
 
-        //int result = a.maxProfit(kurs);
+        int[] resultat= new int[0];
 
         //System.out.println("max profit er: " + a.maxProfit(kurs));
         //System.out.println("beste kjøpstidspunkt er: " + a.bestBuyTime(kursendring));
-        System.out.println(Arrays.toString(a.buyAndSell(kursendring)));
+        //System.out.println(Arrays.toString(a.buyAndSell(kursendring)));
 
         Date start = new Date();
         int runder = 0;
@@ -100,5 +100,7 @@ public class Aksjeanalyse {
         } while (slutt.getTime() - start.getTime() < 1000);
         tid = (double) (slutt.getTime() - start.getTime()) / runder;
         System.out.println("Millisekund pr. runde:" + tid);
+        resultat = a.buyAndSell(kursendring);
+        System.out.println("kjøp: " + resultat[0] + ", salg:" + resultat[1] + ", differanse: " + resultat[2]);
     }
 }

@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad8c9595-44e1-422f-b61c-9b32995c5cb8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving02/Oving02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving02/src/Rekursjon211.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ovinger/Oving01/src/Aksjeanalyse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ovinger/Oving01/src/Aksjeanalyse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Oving01/Aksjeanalyse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oving01/Aksjeanalyse.class" afterDir="false" />
@@ -58,7 +61,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Rekursjon211">
     <configuration name="Aksjeanalyse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Aksjeanalyse" />
       <module name="Oving01" />
@@ -66,8 +69,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Rekursjon211" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Rekursjon211" />
+      <module name="Oving02" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Rekursjon211" />
         <item itemvalue="Application.Aksjeanalyse" />
       </list>
     </recent_temporary>
@@ -89,7 +100,9 @@
       <workItem from="1566372494924" duration="6221000" />
       <workItem from="1566412679939" duration="3082000" />
       <workItem from="1566462663680" duration="4236000" />
-      <workItem from="1566469884776" duration="3702000" />
+      <workItem from="1566469884776" duration="4839000" />
+      <workItem from="1566730550657" duration="2224000" />
+      <workItem from="1566891644436" duration="919000" />
     </task>
     <servers />
   </component>
