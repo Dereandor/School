@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad8c9595-44e1-422f-b61c-9b32995c5cb8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Ovinger/Oving02/Oving02.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ovinger/Oving02/src/Rekursjon211.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving02/src/Rekursjon223.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TDAT2003/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TDAT2003/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ovinger/Oving01/src/Aksjeanalyse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ovinger/Oving01/src/Aksjeanalyse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oving01/Aksjeanalyse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oving01/Aksjeanalyse.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,6 +100,7 @@
       <workItem from="1566469884776" duration="4839000" />
       <workItem from="1566730550657" duration="2224000" />
       <workItem from="1566891644436" duration="919000" />
+      <workItem from="1567404753249" duration="549000" />
     </task>
     <servers />
   </component>
