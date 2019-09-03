@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad8c9595-44e1-422f-b61c-9b32995c5cb8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Ovinger/Oving02/src/Rekursjon223.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TDAT2003/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TDAT2003/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TDAT1005/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TDAT1005/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TDAT1005/.idea/dataSources/db65cc56-b971-4c08-8996-2cf3848d2fd6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TDAT1005/.idea/dataSources/db65cc56-b971-4c08-8996-2cf3848d2fd6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TDAT1005/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TDAT1005/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ovinger/Oving02/src/Rekursjon211.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ovinger/Oving02/src/Rekursjon211.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ovinger/Oving02/src/Rekursjon223.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ovinger/Oving02/src/Rekursjon223.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Oving02/Rekursjon211.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oving02/Rekursjon211.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Øving01/Aksjeanalyse.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +41,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ForelesningsEks/Forelesning1/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -101,6 +107,7 @@
       <workItem from="1566730550657" duration="2224000" />
       <workItem from="1566891644436" duration="919000" />
       <workItem from="1567404753249" duration="549000" />
+      <workItem from="1567491417512" duration="2194000" />
     </task>
     <servers />
   </component>
