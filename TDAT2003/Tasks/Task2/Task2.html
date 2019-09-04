@@ -4,20 +4,33 @@
     <meta charset="UTF-8">
     <title>Task2</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="script" href="script.js">
 </head>
 
 <body>
 
-<div class="header">
-    <img src="LogoTextHere.jpeg" alt="logo" />
-    <h1>Mood Analyzer</h1>
+<div class="container">
+    <div class="header">
+        <h1>Øvng2 </h1>
+    </div>
+    <div class="data">
+        <div>
+            <input type="text" id="myInput" placeholder="Type text here" required>
+            <input type="button" id="sendText" value="Analyse Text!">
+        </div>
+    </div>
+    <div class="output">
+        <div>
+            <p id="mySentence">No text to analyse!</p>
+            <hr>
+            <p id="value">No value, type in a text you want to analyse!</p>
+        </div>
+    </div>
+    <div class="image">
+        <div>
+            <img src="Smley2.jpg" alt="smles" id="smly">
+        </div>
+    </div>
 </div>
-
-<div class="button">
-    <h3>Testing av knapp</h3>
-    <input type="text">
-    <input type="button">
-</div>
+<script src="script.js"></script>
 </body>
 </html>
