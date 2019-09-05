@@ -42,13 +42,7 @@ document.querySelector("#sendText").addEventListener("click", e => {
 });
 
 function handleResponse(json) {
-    if (json.value === 0) {
-        document.querySelector("#mySentence").innerHTML = "No text to analyse!";
-
-    } else {
-        document.querySelector("#mySentence").innerHTML = text;
-
-    }
+    document.querySelector("#mySentence").innerHTML = text;
     document.querySelector("#value").innerHTML = json.value;
     document.body.style.backgroundColor = colorArray[json.value];
     document.getElementById("smly").src = imgArray[json.value].src;
