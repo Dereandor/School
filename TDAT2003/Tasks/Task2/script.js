@@ -2,10 +2,8 @@ let url = "http://bigdata.stud.iie.ntnu.no/sentiment/webresources/sentiment/log"
 let security = "?api-key=Happy!!!";
 let text = "";
 
-// Background color
 let colorArray = ["#FF0000", "#FF8C00", "#FFD700", "#9ACD32", "#00FF00"];
 
-// Mood image
 let imgArray = new Array();
 imgArray[0] = new Image();
 imgArray[0].src = "Smley0.JPG";
