@@ -1,6 +1,8 @@
 import java.util.Random;
 
 public class Datamengde {
+    
+    //Sorterngsmetode
     public static void sort(int length, int limit){
         int[] unsortedArray =  randomArray(length);
         if (unsortedArray == null || unsortedArray.length == 0) return;
@@ -25,10 +27,11 @@ public class Datamengde {
         }
     }
     
+    //quicksortmetode for større tabeller
     private static int[] quickSort(int[] array, int left, int right, int limit){
         int i = left, j = right;
         int[] output = array;
-        if ((right-left) <= limit) output = insertionSort(array, left, right);
+        if ((right-left) <= limit) output = insertionSort(array, left, right); //sjekker her hvor mange sorteringer som gjenstår ift. å skifte til insert sortering
         else {
             int median = array[i + (j-i)/2];
             while(i <= j){
@@ -46,6 +49,7 @@ public class Datamengde {
         return output;
     }
     
+    //insertmetode som tar over når når det er lite sortering som gjenstår.
     private static int[] insertionSort(int[] input, int start, int end){
         int i, j;
         for (j = start + 1; j <= end; j++){
@@ -61,6 +65,7 @@ public class Datamengde {
         return input;
     }
     
+    //metode for bytte av posisjon i tabell
     private static int[] changePosition(int[] array, int i, int j){
         int temp = array[i];
         array[i] = array[j];
@@ -68,6 +73,7 @@ public class Datamengde {
         return array;
     }
     
+    //metode som genererer et array av bestemt lengde og fyller det med random int.
     private static int[] randomArray(int length){
         java.util.Random ran = new Random();
         int[] output = new int[length];
@@ -78,8 +84,8 @@ public class Datamengde {
     }
     
     public static void main(String[] args){
-        int arraylength = 1000000;
-        int[] limit = new int[] {30, 50, 70, 100, 150, 200, 300, 400, 500, 750, 1000};
+        int arraylength = 1000000; //bestemmer størrelsen på arrayet
+        int[] limit = new int[] {10, 30, 50, 70, 100, 150, 200, 300, 400, 500, 750, 1000}; //array med forskjellige cut-offs for hvor det skal skiftes fra quicksort til insert.
         
         for (int i = 0; i < limit.length; i++){
             sort(arraylength, limit[i]);
