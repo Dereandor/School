@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad8c9595-44e1-422f-b61c-9b32995c5cb8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving04/Oving04.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving04/src/CircularDoubleList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving04/src/CircularList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving04/src/JosephusProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving04/src/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving04/src/ReadFilePushStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving04/src/ReadJavaFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving04/src/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving04/src/TestCircularDouble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving04/src/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ovinger/Oving03/src/Datamengde.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ovinger/Oving03/src/Datamengde.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oving03/Datamengde.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oving03/Datamengde.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +45,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -44,7 +55,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -58,17 +69,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Datamengde">
-    <configuration name="Aksjeanalyse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aksjeanalyse" />
-      <module name="Oving01" />
+  <component name="RunManager" selected="Application.ReadJavaFile">
+    <configuration name="Datamengde" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Datamengde" />
+      <module name="Oving03" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Datamengde" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Datamengde" />
-      <module name="Oving03" />
+    <configuration name="JosephusProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JosephusProblem" />
+      <module name="Oving04" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadJavaFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReadJavaFile" />
+      <module name="Oving04" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -89,10 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadJavaFile" />
+        <item itemvalue="Application.JosephusProblem" />
         <item itemvalue="Application.Datamengde" />
         <item itemvalue="Application.Rekursjon223" />
         <item itemvalue="Application.Rekursjon211" />
-        <item itemvalue="Application.Aksjeanalyse" />
       </list>
     </recent_temporary>
   </component>
@@ -120,6 +139,9 @@
       <workItem from="1567491417512" duration="2558000" />
       <workItem from="1567668114157" duration="6447000" />
       <workItem from="1567750773433" duration="4856000" />
+      <workItem from="1568130757251" duration="85000" />
+      <workItem from="1568131013928" duration="1862000" />
+      <workItem from="1568271502771" duration="10528000" />
     </task>
     <servers />
   </component>
@@ -141,21 +163,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>10</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
