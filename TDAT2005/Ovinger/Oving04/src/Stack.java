@@ -27,4 +27,8 @@ public class Stack {
         if(!isEmpty()) return array[number-1];
         else return 0;
     }
+
+    public int getNumber() {
+        return number;
+    }
 }

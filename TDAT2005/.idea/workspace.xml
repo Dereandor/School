@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad8c9595-44e1-422f-b61c-9b32995c5cb8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Ovinger/Oving04/Oving04.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ovinger/Oving04/src/CircularDoubleList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ovinger/Oving04/src/CircularList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ovinger/Oving04/src/JosephusProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ovinger/Oving04/src/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ovinger/Oving04/src/ReadFilePushStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ovinger/Oving04/src/ReadJavaFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ovinger/Oving04/src/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ovinger/Oving04/src/TestCircularDouble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ovinger/Oving04/src/Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving04-3/Oving04-3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving04-3/src/Tree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ovinger/Oving04/src/JosephusProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ovinger/Oving04/src/JosephusProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ovinger/Oving04/src/ReadFilePushStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ovinger/Oving04/src/ReadFilePushStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ovinger/Oving04/src/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ovinger/Oving04/src/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Oving04/JosephusProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oving04/JosephusProblem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Oving04/ReadFilePushStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oving04/ReadFilePushStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Oving04/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oving04/Stack.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +52,9 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -91,16 +91,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Rekursjon211" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Rekursjon211" />
+    <configuration name="Rekursjon223" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Rekursjon223" />
       <module name="Oving02" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Rekursjon223" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Rekursjon223" />
-      <module name="Oving02" />
+    <configuration name="Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree" />
+      <module name="Oving04-3" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -109,9 +109,9 @@
       <list>
         <item itemvalue="Application.ReadJavaFile" />
         <item itemvalue="Application.JosephusProblem" />
+        <item itemvalue="Application.Tree" />
         <item itemvalue="Application.Datamengde" />
         <item itemvalue="Application.Rekursjon223" />
-        <item itemvalue="Application.Rekursjon211" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +141,7 @@
       <workItem from="1567750773433" duration="4856000" />
       <workItem from="1568130757251" duration="85000" />
       <workItem from="1568131013928" duration="1862000" />
-      <workItem from="1568271502771" duration="10528000" />
+      <workItem from="1568271502771" duration="24881000" />
     </task>
     <servers />
   </component>

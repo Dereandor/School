@@ -34,54 +34,58 @@ public class ReadFilePushStack {
         }
     }
 
-    private String pushToStack() {
+    private boolean pushToStack() {
         String output = "";
+        boolean Ok = true;
         while (sc.hasNext()) {
             String line = sc.nextLine();
-            if (line.contains("{")){
-                stack.push('{');
-                output += "{";
+            char[] t = line.toCharArray();
+            for(char a : t){
+                if (a == '{'){
+                    stack.push('{');
+                    output += "{";
+                }
+                else if (a == '['){
+                    stack.push('[');
+                    output += "[";
+                }
+                else if (a == '('){
+                    stack.push('(');
+                    output += "(";
+                }
+                else{
+                    if (a == ')'){
+                        int k = stack.pop();
+                        Ok = k == "(".charAt(0);
+                        output += ")";
+                    }
+                    else if (a == ']'){
+                        int k = stack.pop();
+                        Ok = k == "[".charAt(0);
+                        output += "]";
+                    }
+                    else if (a == '}'){
+                        int k = stack.pop();
+                        Ok = k == "{".charAt(0);
+                        output += "}";
+                    }
+                }
             }
-            if (line.contains("}")){
-                stack.push('}');
-                output += "}";
-            }
-            if (line.contains("(")){
-                stack.push('(');
-                output += "(";
-            }
-            if (line.contains(")")){
-                stack.push(')');
-                output += ")";
-            }
-            if (line.contains("[")){
-                stack.push('[');
-                output += "[";
-            }
-            if (line.contains("]")){
-                stack.push(']');
-                output += "]";
-            }
+
         }
         sc.close();
-        return output;
+        System.out.println(output);
+        if(!stack.isEmpty()) return false;
+        return true;
     }
 
     public void scanFile(int stacksize) throws FileNotFoundException {
         getScannerObject();
         stack = new Stack(stacksize);
-        String ss = pushToStack();
-        System.out.println("String: " + ss);
+        //String ss = pushToStack();
+        //System.out.println("String: " + ss);
         System.out.println("\n");
-        for (int i = 0; i < ss.length(); i++) {
-            int pop = stack.pop();
-            if ((ss.charAt(i) == 123 && pop != 125) ||
-                    (ss.charAt(i) == 40 && pop != 41) ||
-                    (ss.charAt(i) == 91 && pop != 93)) {
-                break;
-            }
-        }
-        if (stack.isEmpty()) {
+        if (pushToStack()) {
             System.out.println("Clean code");
         } else {
             System.out.println("Bad Code");
