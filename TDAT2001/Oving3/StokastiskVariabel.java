@@ -5,7 +5,7 @@ public class StokastiskVariabel {
     private double[] p;
 
     public StokastiskVariabel(double[] x, double[]p) {
-        if (x.length != p.length) throw new IllegalArgumentException("tabellene mpå være like lange");
+        if (x.length != p.length) throw new IllegalArgumentException("tabellene må være like lange");
         this.x = new double[x.length];
         this.p = new double[p.length];
         for(int i = 0; i < x.length; i++) {
@@ -61,6 +61,6 @@ public class StokastiskVariabel {
         System.out.println(sv.forventning());
         System.out.println(sv.varians());
         System.out.println(sv.standardAvvik());
-        System.out.println(sv.fordelingsFunksjon(0.6) - sv.fordelingsFunksjon(1.6));
+        System.out.println(sv.fordelingsFunksjon(1.6) - sv.fordelingsFunksjon(0.6));
     }
 }

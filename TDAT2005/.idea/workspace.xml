@@ -2,16 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad8c9595-44e1-422f-b61c-9b32995c5cb8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Ovinger/Oving04-3/Oving04-3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ovinger/Oving04-3/src/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving05/Oving05.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving05/src/HashArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving05/src/HashInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving05/src/HashOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving05/src/MainOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving05/src/MainTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving05/src/Name.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving05/src/ReadFromFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving05/src/navn.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TDAT2001/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../TDAT2001/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TDAT2001/Oving3/StokastiskVariabel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TDAT2001/Oving3/StokastiskVariabel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ovinger/Oving04/src/JosephusProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ovinger/Oving04/src/JosephusProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ovinger/Oving04/src/ReadFilePushStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ovinger/Oving04/src/ReadFilePushStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ovinger/Oving04/src/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ovinger/Oving04/src/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oving04/JosephusProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oving04/JosephusProblem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oving04/ReadFilePushStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oving04/ReadFilePushStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oving04/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oving04/Stack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ovinger/Oving04/src/CircularList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ovinger/Oving04/src/CircularList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Oving04/CircularList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oving04/CircularList.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,14 +76,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReadJavaFile">
-    <configuration name="Datamengde" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Datamengde" />
-      <module name="Oving03" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MainTwo">
     <configuration name="JosephusProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JosephusProblem" />
       <module name="Oving04" />
@@ -84,16 +84,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadJavaFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReadJavaFile" />
-      <module name="Oving04" />
+    <configuration name="MainOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainOne" />
+      <module name="Oving05" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Rekursjon223" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Rekursjon223" />
-      <module name="Oving02" />
+    <configuration name="MainTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainTwo" />
+      <module name="Oving05" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadJavaFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReadJavaFile" />
+      <module name="Oving04" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReadJavaFile" />
+        <item itemvalue="Application.MainTwo" />
+        <item itemvalue="Application.MainOne" />
         <item itemvalue="Application.JosephusProblem" />
+        <item itemvalue="Application.ReadJavaFile" />
         <item itemvalue="Application.Tree" />
-        <item itemvalue="Application.Datamengde" />
-        <item itemvalue="Application.Rekursjon223" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +148,7 @@
       <workItem from="1567750773433" duration="4856000" />
       <workItem from="1568130757251" duration="85000" />
       <workItem from="1568131013928" duration="1862000" />
-      <workItem from="1568271502771" duration="24881000" />
+      <workItem from="1568271502771" duration="52338000" />
     </task>
     <servers />
   </component>
@@ -163,5 +170,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Ovinger/Oving05/src/MainTwo.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

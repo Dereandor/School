@@ -78,9 +78,9 @@ public class CircularList {
          Node temp = head;
          if (size == 0) isEmpty();
          for (int i = 0; i < size - 1; i++) {
-             System.out.println(temp.getElement()+" -> ");
+             System.out.print(temp.getElement()+" -> ");
              temp = temp.next;
          }
-         System.out.println(temp.element);
+         System.out.print(temp.element);
      }
 }
