@@ -34,7 +34,7 @@ public class MainTwo {
     public static void main(String[] args) {
         int[] table = fillArray();
         HashOperations ho = new HashOperations();
-        ho.fillHashTable(table);
+        //ho.fillHashTable(table);
         benchmarkHashInt(table);
         benchmarkHashMap(table);
     }
