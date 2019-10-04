@@ -3,9 +3,9 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class ReadFromFile {
-    private final int size = 128; //2^7 spaces for closest estimate
+    private static final int size = 128; //2^7 spaces for closest estimate
     private int collisions = 0;
-    private HashArray[] array = new HashArray[size];
+    private Node[] array = new Node[size];
 
     public boolean getFile() {
         Scanner sc = null;
@@ -18,26 +18,8 @@ public class ReadFromFile {
         }
         while (sc.hasNext()) {
             String line = sc.nextLine();
-            //String[] fullname = line.split("\\s+");
-            Name newName = new Name(line);
-            int key = newName.getHashCode();
-            put(newName, key);
-
-            /*if(fullname.length == 2) {
-                Name newName = new Name(fullname[1], fullname[0]);
-                int key = newName.getHashCode();
-                put(newName, key);
-            }
-            if (fullname.length == 3) {
-                Name newName = new Name(fullname[1], fullname[2], fullname[0]);
-                int key = newName.getHashCode();
-                put(newName, key);
-            }
-            if (fullname.length == 4) {
-                Name newName = new Name(fullname[1], fullname[2], fullname[3], fullname[0]);
-                int key = newName.getHashCode();
-                put(newName, key);
-            }*/
+            put(line);
+            //System.out.println(newName.toString()+". Hash: "+key);
         }
         sc.close();
         int elements = 0;
@@ -46,70 +28,74 @@ public class ReadFromFile {
                 elements++;
             }
         }
-        System.out.println("Number of collisions per person: " + ((double)(collisions)/(double)(size)));
+        System.out.println("Number of collisions: " + collisions);
         System.out.println("Load factor: " + ((double)(elements)/(double)(size)));
         return true;
     }
 
-    public int put(Name key, int value) {
-        int h1 = key.getHashCode();
-        HashArray newEntry = new HashArray(key, value);
+    public int put(String key) {
+        int h1 = getHashCode(key);
+        int h = h1 % array.length;
 
-        int m = array.length;
-
-        for (int i = 0; i < m; i++) {
-            int j = probe(h1, i, m);
-            if(array[j] == null) {
-                array[j]= newEntry;
-                return j;
-            } else {
-                collisions++;
-                System.out.println("Collision between: " + key + " and " + array[j].getKey());
-                int hash2 = h2(h1);
-                if (array[hash2] == null) {
-                    array[hash2] = newEntry;
-                    return hash2;
-                }
-            }
-        }
-        return -1;
-        /*if(array[h1] == null) {
-            System.out.println("Putting key: "+key+", value: "+value+" to list");
-            array[h1] = newEntry;
+        if (array[h] == null) {
+            array[h] = new Node(key);
+            return h;
         } else {
-            System.out.println("Collision detected for key: "+key+ " and " +array[h1].getKey());
-            int hash2 = h2(h1);
-            if (array[hash2] == null) {
-                array[hash2] = newEntry;
+            Node node = array[h];
+            while(node.previous != null) {
+                node = node.previous;
+            }
+            node.previous = new Node(key);
+            System.out.println("Collision between: " + key + " and " + array[h].getName());
+            collisions++;
+
+        }
+
+        /*for (int i = 0; i < array.length; i++) {
+            if (array[h] == null) {
+                array[h] = new Node(key);
+                return h;
             } else {
+                Node node = array[h];
+                while(node.previous != null) {
+                    node = node.previous;
+                }
+                node.previous = new Node(key);
+                System.out.println("Collision between: " + key + " and " + array[h].getName());
                 collisions++;
+
             }
         }*/
+        return -1;
     }
 
-    private int probe(int h, int i, int m) {
-        return (h+i) % m;
-    }
+    public String get(String key) {
+        int h1 = getHashCode(key);
+        int h = h1 % array.length;
 
-    public boolean get(Name key) {
-        HashArray x = array[0];
-        while (x != null) {
-            if (x.getKey().equals(key)) {
-                return true;
+        if (array[h] != null) {
+            if (array[h].getName().equals(key)) {
+                return array[h].getName();
             }
-            x = x.next;
-        }
-        return false;
-    }
-    public void display() {
-        for (int i = 0; i < size; i++) {
-            if (array[i] != null) {
-                System.out.println(array[i].getKey());
+        } else {
+            Node node = array[h];
+            while (node.previous != null) {
+                if (node.getName().equals(key)) {
+
+                    return array[h].getName();
+                }
+                node = node.previous;
             }
+
         }
+        return null;
     }
 
-    private int h2(int h) {
-        return (h+1)%size;
+    public static int getHashCode(String name) {
+        int temp = 0;
+        for (int i = 0; i < name.length(); i++) {
+            temp+= name.charAt(i) * (127 *(i+1));
+        }
+        return temp;
     }
 }

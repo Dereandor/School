@@ -30,10 +30,10 @@ public class HashOperations {
 
             HashInt newEntry = new HashInt(hash, input[i]);
 
-            while (table[hash] != null) {
+            while (benchmark[hash] != null) {
                 hash = (hash + h2(input[i])) % size;
             }
-            table[hash] = newEntry;
+            benchmark[hash] = newEntry;
         }
     }
     
