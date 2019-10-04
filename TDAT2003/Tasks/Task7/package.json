@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "name": "Task7",
     "author": "Torstein Holmberget",
     "scripts": {
@@ -13,3 +14,16 @@
         "@babel/preset-flow": "^7.0.0"
     }
 }
+=======
+    "name": "my-project",
+    "main": "lib/index.js",
+    "scripts": {
+        "build": "babel src/ -d lib/",
+        "prepublish": "npm run build",
+        "flow": "flow"
+    },
+    "devDependencies": {
+        "flow-bin": "^0.108.0"
+    }
+}
+>>>>>>> 28bcd9277faa0d31390b8933098dbb49492b02a1

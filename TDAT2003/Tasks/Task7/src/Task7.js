@@ -3,6 +3,7 @@
 let v1 = [1, 2, 3];
 let v2 = [4,5,6];
 
+<<<<<<< HEAD
 /* 
 2 + v1: [ 3, 4, 5 ]
 2 * v1: [ 2, 4, 6 ]
@@ -26,3 +27,7 @@ console.log('mean of v1:', v1.reduce((a,b) => a + b, 0) / v1.length);
 console.log('v1 dot v2:', dotp(v1,v2));
 console.log('sum of v1 + 2 * v2:', v1.reduce((a,b) => a + b, 0) + v2.map(e => 2 * e).reduce((a,b) => a + b, 0));
 console.log('v1 as String:', v1.map((e,i) => 'v1[' + i + '] = ' + e).toString());
+=======
+console.log('2 + v1:', v1.map(e=> 2 + e));
+console.log('2 * v1:', v1.map(e=> 2 * e));
+>>>>>>> 28bcd9277faa0d31390b8933098dbb49492b02a1

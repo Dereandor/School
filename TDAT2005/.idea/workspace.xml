@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad8c9595-44e1-422f-b61c-9b32995c5cb8" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/../TDAT2003/Tasks/Task7/src/Task7-2.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Ovinger/Oving7/L7Skandinavia-navn.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Ovinger/Oving7/L7Skandinavia.txt" afterDir="false" />
@@ -24,6 +25,29 @@
       <change beforePath="$PROJECT_DIR$/../TDAT2003/Tasks/Task7/src/Task7.js" beforeDir="false" afterPath="$PROJECT_DIR$/../TDAT2003/Tasks/Task7/src/Task7.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving05-1/Oving05-1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving05-1/src/HashObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving05-1/src/HashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving05-1/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving05/src/HashObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving05/src/Hashtabell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving05/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving05/src/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TDAT2003/Tasks/Task3" beforeDir="false" afterPath="$PROJECT_DIR$/../TDAT2003/Tasks/Task3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ovinger/Oving05/src/HashOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ovinger/Oving05/src/HashOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ovinger/Oving05/src/MainOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ovinger/Oving05/src/MainOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ovinger/Oving05/src/MainTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ovinger/Oving05/src/MainTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ovinger/Oving05/src/Name.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ovinger/Oving05/src/Name.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ovinger/Oving05/src/ReadFromFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ovinger/Oving05/src/ReadFromFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Oving05/HashOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oving05/HashOperations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Oving05/MainOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oving05/MainOne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Oving05/MainTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oving05/MainTwo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Oving05/Name.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oving05/Name.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Oving05/ReadFromFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oving05/ReadFromFile.class" afterDir="false" />
+>>>>>>> 28bcd9277faa0d31390b8933098dbb49492b02a1
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,11 +92,14 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+<<<<<<< HEAD
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\School\TDAT2005\Ovinger\Oving7" />
     </key>
+=======
+>>>>>>> 28bcd9277faa0d31390b8933098dbb49492b02a1
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -129,6 +156,10 @@
         <item itemvalue="Application.MainOne" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainName" />
+<<<<<<< HEAD
+=======
+        <item itemvalue="Application.JosephusProblem" />
+>>>>>>> 28bcd9277faa0d31390b8933098dbb49492b02a1
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +192,10 @@
       <workItem from="1568271502771" duration="52338000" />
       <workItem from="1568880701991" duration="31074000" />
       <workItem from="1569321749846" duration="72000" />
+<<<<<<< HEAD
       <workItem from="1570012718249" duration="7685000" />
+=======
+>>>>>>> 28bcd9277faa0d31390b8933098dbb49492b02a1
     </task>
     <servers />
   </component>

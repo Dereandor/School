@@ -10,7 +10,10 @@
       <module fileurl="file://$PROJECT_DIR$/Ovinger/Oving04-3/Oving04-3.iml" filepath="$PROJECT_DIR$/Ovinger/Oving04-3/Oving04-3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ovinger/Oving05/Oving05.iml" filepath="$PROJECT_DIR$/Ovinger/Oving05/Oving05.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ovinger/Oving05-1/Oving05-1.iml" filepath="$PROJECT_DIR$/Ovinger/Oving05-1/Oving05-1.iml" />
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/Ovinger/Oving7/Oving7.iml" filepath="$PROJECT_DIR$/Ovinger/Oving7/Oving7.iml" />
+=======
+>>>>>>> 28bcd9277faa0d31390b8933098dbb49492b02a1
       <module fileurl="file://$PROJECT_DIR$/TDAT2005.iml" filepath="$PROJECT_DIR$/TDAT2005.iml" />
     </modules>
   </component>
