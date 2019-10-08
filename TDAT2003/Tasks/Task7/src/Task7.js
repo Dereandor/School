@@ -21,8 +21,13 @@ function dotp(x,y) {
 }
 
 console.log('2 + v1:', v1.map(e=> 2 + e));
+
 console.log('2 * v1:', v1.map(e=> 2 * e));
+
 console.log('mean of v1:', v1.reduce((a,b) => a + b, 0) / v1.length);
+
 console.log('v1 dot v2:', dotp(v1,v2));
+
 console.log('sum of v1 + 2 * v2:', v1.reduce((a,b) => a + b, 0) + v2.map(e => 2 * e).reduce((a,b) => a + b, 0));
+
 console.log('v1 as String:', v1.map((e,i) => 'v1[' + i + '] = ' + e).toString());

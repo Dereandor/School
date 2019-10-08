@@ -10,3 +10,17 @@ Did anyone get A: Yes
 Did anyone get F: No
 */
 
+console.log('Students elements as strings:', students.map(function(e) {return e.name + " got " + e.grade}));
+
+console.log('How many got C:', students.filter(e => e.grade === 'C').length);
+
+console.log('Percentage of C grades:', students.filter(e => e.grade === 'C').length / students.length);
+
+const grade = function(a,b) { 
+    if (students.some(e => e.grade === b)) return 'Yes'; 
+    else return 'No'
+    }
+
+console.log('Did anyone get A:', grade(students, 'A'));
+
+console.log('Did anyone get F:', grade(students, 'F'));

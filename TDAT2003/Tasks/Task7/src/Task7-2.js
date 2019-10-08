@@ -19,5 +19,7 @@ sum of v: Complex { real: 3, imag: 3 }
 let v = [new Complex(2, 2), new Complex(1, 1)];
 
 console.log('v elements as strings:', v.map(function(e) {return e.real + " + " + e.imag + "i"}));
+
 console.log('magnitude of v elements:', v.map(function(e) {return Math.sqrt(e.real*e.real + e.imag*e.imag)}));
-console.log('sum of v:', v[0].constructor.name + ;
+
+console.log('sum of v:', v.reduce(function(a, b) {return new Complex(a.real + b.real, a.imag + b.imag)}));

@@ -2,7 +2,7 @@
     "name": "Task7",
     "author": "Torstein Holmberget",
     "scripts": {
-        "start": "babel-node src/Task7-2.js"
+        "start": "babel-node src/Task7-3.js"
     },
     "devDependencies": {
         "flow-bin": "^0.108.0",
