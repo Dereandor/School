@@ -1,6 +1,4 @@
 public class Node {
-    VEdge edge1;
-    Predecessor d;
-    int nodeNumber;
-
+    Kant kant1;
+    Object d;
 }
