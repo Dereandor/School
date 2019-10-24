@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Edmond",
+            "request": "launch",
+            "mainClass": "Edmond"
+        }
+    ]
+}

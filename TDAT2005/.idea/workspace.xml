@@ -2,25 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad8c9595-44e1-422f-b61c-9b32995c5cb8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Ovinger/Oving08-2/Oving08-2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ovinger/Oving08-2/flytgraf1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ovinger/Oving08-2/src/Edge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ovinger/Oving08/src/Forgj.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ovinger/Oving08/src/Graf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ovinger/Oving08/src/Kant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ovinger/Oving08/src/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ovinger/Oving08/src/VKant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving08-2/.vscode/launch.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TDAT2003/Tasks/Task3" beforeDir="false" afterPath="$PROJECT_DIR$/../TDAT2003/Tasks/Task3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TDAT2003/Tasks/Task5/DatabaseTest" beforeDir="false" afterPath="$PROJECT_DIR$/../TDAT2003/Tasks/Task5/DatabaseTest" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TDAT2003/Tasks/Task6/tdat2003task6" beforeDir="false" afterPath="$PROJECT_DIR$/../TDAT2003/Tasks/Task6/tdat2003task6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ovinger/Oving08/src/Edge.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ovinger/Oving08/src/Graph.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ovinger/Oving08/src/Heap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ovinger/Oving08/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ovinger/Oving08/src/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ovinger/Oving08/src/Predecessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ovinger/Oving08/src/VEdge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ovinger/Oving08-2/src/Edge.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +51,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -87,7 +74,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Edmond">
+    <configuration name="Edmond" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Edmond" />
+      <module name="Oving08-2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Oving7" />
@@ -109,13 +103,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainOne" />
-      <module name="Oving05" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MainTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainTwo" />
       <module name="Oving05" />
@@ -125,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Edmond" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.MainTwo" />
-        <item itemvalue="Application.MainOne" />
       </list>
     </recent_temporary>
   </component>
@@ -166,6 +153,7 @@
       <workItem from="1571128532079" duration="2802000" />
       <workItem from="1571304019417" duration="5288000" />
       <workItem from="1571387402931" duration="5252000" />
+      <workItem from="1571903848724" duration="5737000" />
     </task>
     <servers />
   </component>
