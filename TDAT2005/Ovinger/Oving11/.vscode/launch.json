@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Oppgave3",
+            "request": "launch",
+            "mainClass": "Oppgave3"
+        }
+    ]
+}

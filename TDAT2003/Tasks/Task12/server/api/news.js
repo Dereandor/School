@@ -24,7 +24,7 @@ router.get("/",(req: Request, res: Response) => {
     newsDao.getAllArticles((status, data) => {
         res.status(status);
         res.json(data);
-    })
+    });
 });
 
 router.get("/category/:articleID", (req: Request, res: Response) => {
@@ -32,7 +32,7 @@ router.get("/category/:articleID", (req: Request, res: Response) => {
     newsDao.getArticleByID(req.params.articleID, (status, data) =>{
         res.status(status);
         res.json(data);
-    })
+    });
 });
 
 router.get("/categories", (req: Request, res: Response) => {
@@ -40,7 +40,33 @@ router.get("/categories", (req: Request, res: Response) => {
     newsDao.getAllCategories((status, data)=> {
         res.status(status);
         res.json(data);
-    })
+    });
 });
+
+router.post("/createComment/article", (req: Request, res: Response) => {
+    console.log("POST-request from client");
+    newsDao.createComment(req.body, (status, data) => {
+        res.status(status);
+        res.json(data);
+    });
+});
+
+router.put("/rating/:articleID", (req: Request, res: Response) => {
+    console.log("PUT-request from client");
+    newsDao.updateRating(req.body, req.params.articleID, (status, data) => {
+        res.status(status);
+        res.json(data);
+    });
+});
+
+router.put("/rating(:articleID/:commentID", (req: Request, res: Response) => {
+    console.log("PUT-request received from client");
+    newsDao.updateCommentRating(req.body, req.params.commentID, (status, data) => {
+        res.status(status);
+        res.json(data);
+    });
+});
+
+router.get("/comments/:articleID")
 
 module.exports = router;

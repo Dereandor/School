@@ -42,9 +42,30 @@ module.exports = class NewsDao extends Dao {
             [articleID], callback);
     }
 
+    getNewestArticles(callback: (status: string, data: string) => void) {
+        super.query("SELECT title, timestamp FROM article ORDER BY timestamp DESC LIMIT 10", [], callback);
+    }
+
     updateRating(json: Object, articleID: number, callback: (status: string, data: string) => void) {
         let update = [json.rating, articleID];
         super.query("UPDATE article SET rating = ? WHERE articleID = ?",
             update, callback);
+    }
+
+    createComment(json: Object, callback: (status: string, data: string) => void) {
+        let comment = [json.commentName, json.content, json.articleID];
+        console.log("comment: ", comment);
+        super.query("INSERT INTO comment VALUES(DEFAULT, ?, ?, ?, DEFAULT, 0)", comment, callback);
+    }
+
+    getCommentsByArticleID(articleID: number, sortByColumn: string, sortingOrder: string, callback: (status: string, data: string) => void) {
+        console.log("comments for articleID: ", articleID);
+        super.query("SELECT commentID, commentUser, content, DATE_FORMAT(timestamp, '%Y-%m-%d %H:%i') AS timestamp, commentRating FROM comment WHERE articleID = ? ORDER BY ${sortByColumn} ${sortingOrder}",
+            [articleId], callback);
+    }
+
+    updateCommentRating(json: Object, commentID: number, callback: (status: string, data: string) => void) {
+        let update = [json.commentRating, commentID];
+        super.query("UPDATE comment SET commentRating = ? where commentID = ?", update, callback);
     }
 }

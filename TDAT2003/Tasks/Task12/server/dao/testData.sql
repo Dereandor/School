@@ -37,3 +37,14 @@ VALUES(DEFAULT,
        0,
        'Natur');
 
+INSERT INTO comment
+VALUES(DEFAULT,
+       'Torstein',
+       'godt jobbet!',
+       1,
+       DEFAULT,
+       0);
+
+INSERT INTO comment
+VALUES(DEFAULT, 'Torstein', 'oida', 2, DEFAULT, 0);
+

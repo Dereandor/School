@@ -16,3 +16,12 @@ CREATE TABLE article(
     categoryName VARCHAR(35),
     CONSTRAINT article_fk1 FOREIGN KEY (categoryName) REFERENCES category(name)
 );
+CREATE TABLE comment(
+    commentID INTEGER AUTO_INCREMENT PRIMARY KEY,
+    commentUser VARCHAR(30) NOT NULL,
+    content VARCHAR(255),
+    articleID INTEGER NOT NULL,
+    timestamp DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    commentRating INTEGER NOT NULL,
+    CONSTRAINT comment_fk1 FOREIGN KEY(articleID) REFERENCES article(articleID) ON DELETE CASCADE
+);
