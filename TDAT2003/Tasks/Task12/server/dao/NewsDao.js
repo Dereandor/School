@@ -23,13 +23,28 @@ module.exports = class NewsDao extends Dao {
             [], callback);
     }
 
-    getImportantArticles(callback: (status: string, data: string) => void) {
-        super.query("SELECT articleID, title,rating,imagelink,categoryName FROM article WHERE important IS TRUE ORDER BY rating DESC, articleID DESC",
+    getCountFrontpage(callback: (status:string, data:string) => void) {
+        super.query("SELECT COUNT(articleID) AS count FROM article WHERE important = true",
             [], callback);
     }
 
-    getArticleByCategory(categoryName: string, callback: (status: string, data: string)=>void) {
-        super.query("SELECT articleID, title, rating, imagelink, categoryName FROM article WHERE categoryName = ? ORDER BY rating DESC, articleID DESC",
+    getCountCategory(categoryName: string, callback: (status: string, data: string) => void) {
+        super.query("SELECT COUNT(articleID) AS count FROM article WHERE categoryName=?",
+            [categoryName], callback);
+    }
+
+    filteredByCategoryAndTitle(categoryName: string, searchWord: string, callback:(status: string, data: string) => void) {
+        super.query("SELECT articleID, title FROM article WHERE categoryName=? AND title LIKE ?",
+            [categoryName, searchWord+'%'], callback);
+}
+
+    getImportantArticles(ArticleNumber: number,callback: (status: string, data: string) => void) {
+        super.query("SELECT articleID, title,rating,imagelink,categoryName FROM article WHERE important IS TRUE ORDER BY rating DESC, articleID DESC LIMIT ${articleNumber},9",
+            [], callback);
+    }
+
+    getArticleByCategory(articleNumber: number, categoryName: string, callback: (status: string, data: string)=>void) {
+        super.query("SELECT articleID, title, rating, imagelink, categoryName FROM article WHERE categoryName = ? ORDER BY rating DESC, articleID DESC LIMIT ${articleNumber},9",
             [categoryName], callback);
     }
 
@@ -68,4 +83,15 @@ module.exports = class NewsDao extends Dao {
         let update = [json.commentRating, commentID];
         super.query("UPDATE comment SET commentRating = ? where commentID = ?", update, callback);
     }
-}
+
+    filterArticles(title: string, callback: (status: string, data: string) => void) {
+        console.log(title);
+        super.query("SELECT articleID, title FROM article WHERE title LIKE ?",
+            [title+'%'], callback);
+    }
+
+    getLiveFeed(callback:(status: string, data: string) => void) {
+        super.query("SELECT articleID, title, categoryName, DATE_FORMAT(timestamp, '%Y-%m-%d %H:%i') AS timestamp FROM article ORDER BY articleID DESC LIMIT 0,5",
+            [], callback);
+    }
+};

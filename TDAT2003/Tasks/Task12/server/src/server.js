@@ -12,3 +12,6 @@ const news = require("../api/news.js");
 
 app.use(express.static(public_path));
 app.use('/news', news);
+app.use('/manage', manage);
+
+app.listen(8080);

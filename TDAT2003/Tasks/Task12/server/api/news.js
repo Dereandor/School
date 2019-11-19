@@ -19,25 +19,45 @@ var pool = mysql.createPool({
 
 let newsDao = new NewsDao(pool);
 
-router.get("/",(req: Request, res: Response) => {
-    console.log("/manage/ request from client");
-    newsDao.getAllArticles((status, data) => {
+
+
+router.get("/page/:articleNumber", (req: Request, res: Response) => {
+    console.log("GET request from client");
+    newsDao.getImportantArticles(req.params.articleNumber, (status, data) => {
         res.status(status);
         res.json(data);
     });
 });
 
-router.get("/category/:articleID", (req: Request, res: Response) => {
-    console.log("/category/:articleID got request from client");
-    newsDao.getArticleByID(req.params.articleID, (status, data) =>{
+router.get("/articleCount", (req: Request, res: Response) => {
+    console.log("GET-request from client");
+    newsDao.getCountFrontpage((status, data) => {
         res.status(status);
         res.json(data);
     });
 });
 
-router.get("/categories", (req: Request, res: Response) => {
-    console.log("/Category request from client");
-    newsDao.getAllCategories((status, data)=> {
+router.get("/countArticles/:categoryName", (req: Request, res: Response) => {
+    console.log("GET-request from client");
+    newsDao.getCountCategory(req.params.categoryName, (status, data) => {
+        res.status(status);
+        res.json(data);
+    });
+});
+
+router.get("/category/:category/:articleNumber", (req: Request, res: Response) => {
+    console.log("GET-request from client");
+    console.log(req.params.category);
+    newsDao.getArticleByCategory(req.params.articleNumber, req.params.category, (status, data) => {
+        res.status(status);
+        res.json(data);
+    });
+});
+
+router.get("/category/:articleID", (req:Request, res: Response) => {
+    console.log("GET-request from client");
+    console.log(req.params);
+    newsDao.getArticleByID(req.params.articleID, (status, data) => {
         res.status(status);
         res.json(data);
     });
@@ -59,7 +79,7 @@ router.put("/rating/:articleID", (req: Request, res: Response) => {
     });
 });
 
-router.put("/rating(:articleID/:commentID", (req: Request, res: Response) => {
+router.put("/rating/:articleID/:commentID", (req: Request, res: Response) => {
     console.log("PUT-request received from client");
     newsDao.updateCommentRating(req.body, req.params.commentID, (status, data) => {
         res.status(status);
@@ -67,6 +87,28 @@ router.put("/rating(:articleID/:commentID", (req: Request, res: Response) => {
     });
 });
 
-router.get("/comments/:articleID")
+router.get("/comments/:articleID/:sortByColumn/:sortingOrder", (req: Request, res: Response) => {
+    console.log("request from client");
+    newsDao.getCommentsByArticleID(req.params.articleID, req.params.sortByColumn, req.params.sortingOrder, (status, data) => {
+        res.status(status);
+        res.json(data);
+    });
+});
+
+router.get("/liveFeed", (req: Request, res: Response) => {
+    console.log("GET-request from client");
+    newsDao.getLiveFeed((status, data) => {
+        res.status(status);
+        res.json(data);
+    });
+});
+
+router.get("/categories", (req: Request, res: Response) => {
+    console.log("/Category request from client");
+    newsDao.getAllCategories((status, data)=> {
+        res.status(status);
+        res.json(data);
+    });
+});
 
 module.exports = router;
