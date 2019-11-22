@@ -2,10 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad8c9595-44e1-422f-b61c-9b32995c5cb8" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/../TDAT2003/SikkerhetWorkshop/NotSoSecureBank" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ovinger/Oving13-2/src/GraphFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ovinger/Oving13-2/src/GraphFileReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ovinger/Oving13-2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ovinger/Oving13-2/src/Main.java" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/Ovinger/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving12/CompressionUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving12/CompressionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving12/Oving12.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving12/data/diverse.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving12/data/diverse.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving12/data/opg12.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving12/data/opg12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving12/src/CompressionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving12/src/FileCompressor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving12/src/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving12/src/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving12/testfiler/diverse.lyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving12/testfiler/diverse.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving12/testfiler/diverse.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ovinger/Oving12/testfiler/opg12.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ovinger/Oving12/Huffman.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ovinger/Oving12/Node.java" beforeDir="false" />
+>>>>>>> 63855c7be70f0eea707b04cc4f2dd35ac9c29fd6
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -171,7 +194,10 @@
       <workItem from="1571903848724" duration="5737000" />
       <workItem from="1573568560508" duration="1936000" />
       <workItem from="1573645888866" duration="2352000" />
+<<<<<<< HEAD
       <workItem from="1574235079466" duration="32893000" />
+=======
+>>>>>>> 63855c7be70f0eea707b04cc4f2dd35ac9c29fd6
     </task>
     <servers />
   </component>
