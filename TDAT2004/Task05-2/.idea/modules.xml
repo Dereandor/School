@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JavaSSLClient/JavaSSLClient.iml" filepath="$PROJECT_DIR$/JavaSSLClient/JavaSSLClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaSSLServer/JavaSSLServer.iml" filepath="$PROJECT_DIR$/JavaSSLServer/JavaSSLServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task05-2.iml" filepath="$PROJECT_DIR$/Task05-2.iml" />
+    </modules>
+  </component>
+</project>

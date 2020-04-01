@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="JavaSSLClient:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaSSLClient_jar</output-path>
+    <root id="archive" name="JavaSSLClient.jar">
+      <element id="module-output" name="JavaSSLClient" />
+    </root>
+  </artifact>
+</component>

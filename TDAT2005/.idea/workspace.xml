@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad8c9595-44e1-422f-b61c-9b32995c5cb8" name="Default Changelist" comment="">
-
-      <change afterPath="$PROJECT_DIR$/Ovinger/.vscode/launch.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ovinger/Oving12/CompressionUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ovinger/Oving12/CompressionUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ovinger/Oving12/Oving12.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ovinger/Oving12/data/diverse.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ovinger/Oving12/data/diverse.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ovinger/Oving12/data/opg12.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ovinger/Oving12/data/opg12.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ovinger/Oving12/src/CompressionUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ovinger/Oving12/src/FileCompressor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ovinger/Oving12/src/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ovinger/Oving12/src/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ovinger/Oving12/testfiler/diverse.lyx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ovinger/Oving12/testfiler/diverse.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ovinger/Oving12/testfiler/diverse.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ovinger/Oving12/testfiler/opg12.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ovinger/Oving12/Huffman.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ovinger/Oving12/Node.java" beforeDir="false" />
-
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +25,11 @@
   <component name="ProjectId" id="1Pj0nE21hY7IEdgws0XBO4gB6Zx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
@@ -79,18 +62,6 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\School\TDAT2005\Ovinger\Oving08-2\src" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Edmond" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -153,6 +124,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -189,7 +172,9 @@
       <workItem from="1571903848724" duration="5737000" />
       <workItem from="1573568560508" duration="1936000" />
       <workItem from="1573645888866" duration="2352000" />
-
+      <workItem from="1574427765228" duration="2904000" />
+      <workItem from="1578305249278" duration="21000" />
+      <workItem from="1584084062238" duration="640000" />
     </task>
     <servers />
   </component>
@@ -211,6 +196,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="342" y="141" key="new project wizard" timestamp="1584093309508">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="141" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1584093309508" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

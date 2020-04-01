@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="JavaSSLServer:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaSSLServer_jar</output-path>
+    <root id="archive" name="JavaSSLServer.jar">
+      <element id="module-output" name="JavaSSLServer" />
+    </root>
+  </artifact>
+</component>
